@@ -22,10 +22,9 @@ title: Yang's Blog
 email: zy910304@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I have tea, do you have coffee?
-baseurl: "hellogaga.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://"hellogaga.github.io
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  hellogaga
 
 # Build settings
 theme: minima
