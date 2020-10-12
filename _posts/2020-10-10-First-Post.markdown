@@ -1,8 +1,12 @@
 ---
-layout: post
-title:  "My first post"
-date:   2020-10-10 22:54:30 +0200
-categories: blog
+title: "Post: Modified Date"
+last_modified_at: 2016-03-09T16:20:02-05:00
+categories:
+  - Blog
+tags:
+  - Post Formats
+  - readability
+  - standard
 ---
 
 This is the first post.
