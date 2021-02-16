@@ -1,6 +1,6 @@
 ---
-title: "Python PEP8 Style"
-last_modified_at: 2020-10-12T16:20:02-05:00
+title: "Python PEP 8 Style"
+last_modified_at: 2021-02-16T16:20:02-05:00
 
 categories:
   - Blog
@@ -27,7 +27,7 @@ The usage of the package is also very simple. `.` in the following will simple c
 pycodestyle .
 pycodestyle example.py
 ```
-# Common Rules by PEP 8
+# Common rules by PEP 8
 A list of common rules can be found [here](https://www.flake8rules.com/). You can find both good and bad practices. For example, E111 is *Indentation is not a multiple of four*. That implies that the indentation did not follow the convention. The document might followed indentation of two spaces, which are convention in some companies. 
 
 # How to fix codes. 
