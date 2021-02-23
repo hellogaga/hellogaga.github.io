@@ -40,16 +40,14 @@ Again, check the video. I installed Ubuntu in the SSD drive. The installation go
 
 # How to Mount a Disk
 I have a hdd drive of 2TB. Which is not yet mounted to the system. I cannot use it after loggning into the system. I follwed the [tutorial](https://askubuntu.com/questions/125257/how-do-i-add-an-additional-hard-drive) to mount the disk.  There are in general the following steps:
-* install a partition tool
+1. install a partition tool
 ```bash
-# install a partition tool garted
 sudo apt-get install gparted
-
 ```
-* use the partition tool to make partitions. Here I refered to this [tutorial](https://linuxhint.com/gparted_ubuntu/). One thing need to **NOTE**. After apply the changes, I found that the partition is automatically mounted to `/media/yang`, which I did not know why. But the gparted tool allow you to demount it. check the below example. <br>
+2. use the partition tool to make partitions. Here I refered to this [tutorial](https://linuxhint.com/gparted_ubuntu/). One thing need to **NOTE**. After apply the changes, I found that the partition is automatically mounted to `/media/yang`, which I did not know why. But the gparted tool allow you to demount it. check the below example. <br>
 ![gparted](/assets/images/gparted.png)
 
-* run the following commands
+3. run the following commands
 ```bash
 # check the available partitions
 sudo fdisk -l
@@ -57,17 +55,17 @@ sudo fdisk -l
 sudo mkdir /hdd
 ```
 
-* Edit /etc/fstab with `root` permission
+4. Edit /etc/fstab with `root` permission
 ```bash
 sudo vim /etc/fstab
 ```
 
-* Add the following line to the file
+5. Add the following line to the file
 ```
 /dev/sda1    /hdd    ext4    defaults    0    0
 ```
 
-* Mount the partition
+6. Mount the partition <br>
 ``` sudo mount /hdd```
 
 **Problem** After doing the above, I found myself that I have no permission to write in the mounting point. I guess it is because the current user has not been assigned the permission. Use the following commans to assign. 
@@ -81,3 +79,70 @@ This is very simple. Just need to install `ibus`. Follow this [tutorial](https:/
 # Install vscode.
 **NOTE** Do not install vscode from ubuntus software center. It has problems with Chinese input. Download from official site and intall by `sudo apt install ./<file>.deb`
 
+# WPS office very slow opening after install 'ibus'
+Solution comes from this [page](https://blog.csdn.net/weixin_42751951/article/details/105919949).
+```
+sudo apt-get install libcanberra-gtk-module
+sudo apt-get install appmenu-gtk2-module
+```
+
+# Media codec to be able to play local media
+
+
+# Install python
+Check this [tutorial](https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/).
+
+## A specific version of Python
+Ubuntu comes with python installed.  However, you can install another verison of python
+check this [page](https://medium.com/analytics-vidhya/how-to-install-and-switch-between-different-python-versions-in-ubuntu-16-04-dc1726796b9b). It is about how to install different version of python and switch between them. 
+This [page](https://phoenixnap.com/kb/how-to-install-python-3-ubuntu) is also about how to install a different version. 
+
+```
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.7
+
+```
+Next, go to the virtualenv section to specify the python version.
+
+
+## install pip
+
+```
+sudo apt-get install python3-pip
+pip3 --version
+```
+
+## Install virtualenv
+```
+sudo pip3 install virtualenv
+virtualenv --version
+```
+### How to use virtualenv
+* make a project folder using `mkdir pythontest`. Navigate to the project folder by `cd pythontest`
+* run `virtualenv py_env`. `py_env` is the virtual environment name. 
+* run `source py_env/bin/activate` to activate the virtual environment. 
+* use `pip` or `pip3` to install required packages. 
+* run `deactivat` to deactivate from the virtual environment. 
+
+### Build a virtualenv with specific python version
+```
+virtualenv --python=/usr/bin/python3.7 py_37
+```
+'py_37' is the virtual environment name. This should be done when the system has a python 3.7 installed. Reference is [here](https://stackoverflow.com/questions/1534210/use-different-python-version-with-virtualenv/39713544#39713544). 
+
+### How to delete the virtualenv
+Just delete the `py_env` folder.
+
+
+# What is .bashrc and where it is
+## What is .bashrc
+
+
+## where it is
+```bash
+cd ~ # this is the same as cd /home/yang
+ls -la |more
+```
+More info is at this [page](https://askubuntu.com/questions/127056/where-is-bashrc)
