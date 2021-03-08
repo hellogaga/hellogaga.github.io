@@ -21,7 +21,7 @@ Today I found an very good package [SCRCPY](https://github.com/Genymobile/scrcpy
 ## Installation
 1. Enable the USB debugging in the android device. I am using oneplue 7 pro. This can be done through the following steps.  About the phone >> click the "Version Nr" for several times. This will enable the developer mode. >> go to "system / developer options" and enable USB debugging. <br>
 
-<img src="assets/images/usb_debug.png" alt="usb_debug" width="200"/>
+<img src="/assets/images/usb_debug.png" alt="usb_debug" width="200"/>
 
 2. Install SCRCPY in the Linux PC. I am using the Ubuntu 20.04 and the default version of SCRCPY will be 1.12, which is a bit of out dated. 
 
