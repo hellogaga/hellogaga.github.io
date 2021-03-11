@@ -52,8 +52,7 @@ scrcpy -w -S
 **BUG**: It seems that there is a bug when connected over wifi. The phone cannot be stayed awake. The screen will go off after a while. 
 3. Enjoy.
 4. To switch back to USB mode: `adb usb`
-<div style="text-align: center"><img src="/assets/images/connection_over_wifi.png" alt="wifi_connection" width="800"/> <div>
-<br>
+<div style="text-align: center"><img src="/assets/images/connection_over_wifi.png" alt="wifi_connection" width="800"/></div>
 
 ## Transfer files 
 * Scrcpy supports drag and copy from PC to phone. File will be located in /sdcards.
