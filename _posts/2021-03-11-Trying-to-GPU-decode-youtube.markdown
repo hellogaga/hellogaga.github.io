@@ -1,6 +1,7 @@
 ---
 title: "Trying Using GPU to decode video when watching Youtube"
 last_modified_at: 2021-03-11T18:00:00+01:00
+classes: wide
 
 categories:
   - Blog

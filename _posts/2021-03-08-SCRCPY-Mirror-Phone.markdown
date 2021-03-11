@@ -22,7 +22,7 @@ Today I found an very good package [SCRCPY](https://github.com/Genymobile/scrcpy
 ## Installation
 1. Enable the USB debugging in the android device. I am using oneplue 7 pro. This can be done through the following steps.  About the phone >> click the "Version Nr" for several times. This will enable the developer mode. >> go to "system / developer options" and enable USB debugging. <br>
 
-<img src="/assets/images/usb_debug.png" alt="usb_debug" width="400"/>
+<div style="text-align: center"><img src="/assets/images/usb_debug.png" alt="usb_debug" width="400"/></div>
 
 2. Install SCRCPY in the Linux PC. I am using the Ubuntu 20.04 and the default version of SCRCPY will be 1.12, which is a bit of out dated. New version of SCRCPY has many good features. In Ubuntu we can use [snap](https://snapcraft.io/scrcpy) to install the latest version of SCRCPY. Use the following commands to install. ```sudo snap install scrcpy```
 
@@ -52,7 +52,8 @@ scrcpy -w -S
 **BUG**: It seems that there is a bug when connected over wifi. The phone cannot be stayed awake. The screen will go off after a while. 
 3. Enjoy.
 4. To switch back to USB mode: `adb usb`
-<img src="/assets/images/connection_over_wifi.png" alt="wifi_connection" width="400"/> <br>
+<div style="text-align: center"><img src="/assets/images/connection_over_wifi.png" alt="wifi_connection" width="800"/> <div>
+<br>
 
 ## Transfer files 
 * Scrcpy supports drag and copy from PC to phone. File will be located in /sdcards.
