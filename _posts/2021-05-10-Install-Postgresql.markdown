@@ -119,4 +119,4 @@ pgadmin4
 ```
 ### Enjoy it!
 
-<div style="text-align: center"><img src="/assets/images/pgadmin4.png" alt="usb_debug" width="400"/></div>
+<div style="text-align: center"><img src="/assets/images/pgadmin4.png" alt="usb_debug" width="800"/></div>
