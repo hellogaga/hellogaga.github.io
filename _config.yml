@@ -111,8 +111,15 @@ tag_archive:
   path: /tags/
 
 # google_analytics: G-JTCHQJG003
+repository: hellogaga/hellogaga.github.io
 
-jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: G-JTCHQJG003        # Required - replace with your tracking id
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+#jekyll_analytics:
+  #GoogleAnalytics:          # Add, if you want to track with Google Analytics
+   # id: "G-3VWL0T81LQ"        # Required - replace with your tracking id
+    #anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-3VWL0T81LQ"
+    anonymize_ip: false # default
