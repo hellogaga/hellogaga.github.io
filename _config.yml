@@ -54,6 +54,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-analytics
 
 author:
   name   : "Yang Zhang"
@@ -69,9 +70,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hellogaga"
-#    - label: "Instagram"
-#      icon: "fab fa-fw fa-instagram"
-#      url: "https://instagram.com/"
 
 footer:
   links:
@@ -112,4 +110,9 @@ tag_archive:
   type: liquid
   path: /tags/
 
-google_analytics: G-JTCHQJG003
+# google_analytics: G-JTCHQJG003
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: G-JTCHQJG003        # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
