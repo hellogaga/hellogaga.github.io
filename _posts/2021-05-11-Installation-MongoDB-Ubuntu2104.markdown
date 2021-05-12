@@ -1,6 +1,6 @@
 ---
 title: "Installation and Configuration of MongoDB in Ubuntu 21.04"
-last_modified_at: 2021-05-10T17:20:00+01:00
+last_modified_at: 2021-05-12T17:20:00+01:00
 
 categories:
   - Blog
@@ -17,7 +17,6 @@ toc_icon: "cog"
 
 ## MangoDB
 The [document site](https://docs.mongodb.com/) of MongoDB. 
-
 
 
 ## Installation
