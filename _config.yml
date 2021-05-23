@@ -24,7 +24,7 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+remote_theme: "mmistakes/minimal-mistakes@4.23.0"
 # Outputting
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
@@ -59,17 +59,17 @@ plugins:
 author:
   name   : "Yang Zhang"
   avatar : "/assets/images/coffee.jpg"
-  bio    : "I have tea, do you have coffee?"
+  bio    : "Energy System Analyst, PhD"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://hellogaga.github.io"
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/yangzhangenergy"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hellogaga"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/yangzhangenergy"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@hellogaga"
 
 footer:
   links:
