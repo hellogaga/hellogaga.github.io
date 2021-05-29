@@ -13,29 +13,35 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
+## Why I need to lose weight
+I haven't really took care of my body in my entire life. After turning 30, it suddenly came to me that a healthy body is much more precious and important then any other things. I have been chubby since childhood and my BMI was as high as 26. After reading some literature, I realized that obesity dramatically increase the chance of diseases by many times. It is time to make a move. I made up a plan and would register everything I ate and keep track of my body weight. I have been using an excel file and you can found a download link in the following section. 
 
-## Figures
-<div style="text-align: center"><img src="/assets/images/line.png" alt="weight curve" width="800"/></div>
+## 13 kilograms in 3 months
+After 3 months, I think I succeed at least in the first stage. I have lost 13 kg and feel much better than before. I need less sleep and can get up 6:00 in the morning. It feels more energetic during the day even though I have been eating less. It is very surprising that losing weight is not that difficult. <br>
+In the beginning stage I did not exercise much. I was trying to reduce the meals and replace the dinner with pure vegetables. In the middle stage, I start to exercise. I started from morning 3 km and two times a week, gradually increasing to 5 km and three times a week. I also went to the gym two times a week. So working days I would exercise 45 minutes every morning. In the last three weeks, I begin to follow "intermittent fast" that I only eat during 08:00-13:00. During the rest time of the day, I would only drink water, tea and black coffee. It shows in the figure, this IR is very effective. <br>
+I have intentionally reduced my carbohydrate intake and replaced rice/noodle/pasta with sweet potato. I only eat a slice of bread (30g) for breakfast. What surprises me is that carbohydrate still accounts for 16% of my energy intake. Carbohydrates comes with two much energy with too little space in the stomach. It is also easy to feel hungry after eating carbohydrates as the main energy supply as they are so easy to be digested.  
 
-<div style="text-align: center"><img src="/assets/images/piechart.png" alt="food pie chart" width="800"/></div>
+<div style="text-align: center"><img src="/assets/images/line.png" alt="weight loss curve" width="800"/></div>
 
-<div style="text-align: center"><img src="/assets/images/top10food.png" alt="top 10 food" width="800"/></div>
+<div style="text-align: center"><img src="/assets/images/piechart.png" alt="food intake pie chart" width="800"/></div>
+
+<div style="text-align: center"><img src="/assets/images/top10food.png" alt="top 10 food during weight loss" width="800"/></div>
+
 
 ## Resource 
 You can use this link to download [my excel file](/assets/images/Weight_blank.xlsx) that keeps track of food intake and exercise.
 
 ## Code
-Code is provided here. Some modifications might needed to process that data.
-
+Code is provided here. Some modifications might be needed to process that data.
 ### read input
 ```python
-#%% import library
+# import library
 from matplotlib.transforms import Transform
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-#%% read in dataset
+# read in dataset
 weight_df = pd.read_excel("2021 Goalsxlsx.xlsx", sheet_name="weight")
 food_df = pd.read_excel("2021 Goalsxlsx.xlsx", sheet_name="food db")
 intake_df = pd.read_excel("2021 Goalsxlsx.xlsx", sheet_name="food record")
@@ -43,7 +49,7 @@ intake_df = pd.read_excel("2021 Goalsxlsx.xlsx", sheet_name="food record")
 
 ### generate the weight figure
 ```python
-#%% process weight
+# weight curve fit function
 def weight_fit(): 
     weight_measure = weight_df[['date.1', 'Measurement (kg)']].copy()
     weight_measure.dropna(axis = 'index', how='any', inplace = True)
@@ -57,7 +63,7 @@ def weight_fit():
     # return a 1d fit function
     return np.poly1d(z), slope
 
-# new figure about weight
+# new figure about weight loss curve
 def line_plot(ifChinese = False):
     # get the fit function
     fit_function, slope = weight_fit()
@@ -102,6 +108,7 @@ def line_plot(ifChinese = False):
     else:
         plt.savefig('line.png')
 
+# draw pictures
 line_plot(ifChinese = True)
 line_plot()
 ```
@@ -170,20 +177,20 @@ df_join.unit.value_counts()
 df_join_drop = df_join.loc[df_join['unit']!='piece']
 df_group_kg = df_join_drop.groupby('Type').sum()
 
+# draw figures
 pie_chart(df_group_kcal, df_group_kg, ifChinese = True)
 pie_chart(df_group_kcal, df_group_kg)
 ```
 
 ### generate the figure of top ten food
 ```python
-#%% Top ten What I eat most by weight / calories
+# Top ten What I eat most by weight / calories
 df_food_kg = df_join.groupby('food').sum().sort_values(by='quantity', ascending=False)
 df_food_kcal = df_join_drop.groupby('food').sum().sort_values(by='Calorie (kcal)', ascending=False)
 
 df_food_kg.reset_index(inplace=True)
 df_food_kcal.reset_index(inplace=True)
 
-#%%
 # figures
 def bar_chart():
     plt.rcParams['font.family'] = 'DejaVu Sans'
