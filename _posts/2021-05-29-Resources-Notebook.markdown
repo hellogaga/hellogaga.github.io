@@ -13,8 +13,31 @@ toc_icon: "cog"
 ---
 
 ## Python
-### matplotlib
-#### Add Chinese fonts in Matplotlib figures. 
+### Callback functions
+TBC
+
+### Parameters in functions
+TBC
+
+
+## Pandas
+### Round timestamp
+```python
+# round the timestamp to min
+df_plc['Time'] = df_plc['Time'].apply(lambda x: x.round('min'))
+```
+
+### Timestamp resampling
+Reference page is [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.resample.html).
+
+```python
+# upsample a time series dataset. It is like group. 
+akeb_data = akeb_data.set_index('Time')
+akeb_data_resample = akeb_data.resample('5T').ffill()
+```
+
+## matplotlib
+### Add Chinese fonts in Matplotlib figures. 
 When I use matplotlib to generate pictures in Ubuntu, it sometimes cannot display Chinese characters. The solution is the method in this [page](https://programming.vip/docs/how-to-make-matplotlib-display-chinese-smoothly-in-ubuntu-16.04.html). A short summary is below: 
 * use the following commands to check the fonts folder.
   ```python
