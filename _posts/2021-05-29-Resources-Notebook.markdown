@@ -70,3 +70,124 @@ When I use matplotlib to generate pictures in Ubuntu, it sometimes cannot displa
         
   ```
 <div style="text-align: center"><img src="/assets/images/piechart_chinese.png" alt="food pie chart" width="800"/></div>
+
+## VPN
+The tool is in [Github](https://github.com/shadowsocks). Their website is [here](http://shadowsocks.org/). Use ```shadowsocks-libev```. This [tutorial](https://zh.codepre.com/how-to-24542.html) is very helpful.
+
+### A VPS server
+1. Step 1: Installation
+    ```bash
+    # install snap
+    sudo dnf install -y epel-release
+    sudo dnf update -y
+    sudo dnf install -y snapd
+
+    # enable snapd service
+    sudo systemctl start snapd.service
+    sudo systemctl enable snapd.service
+
+    # install snap core
+    sudo snap install core
+
+    # install server side
+    sudo snap install shadowsocks-libev
+
+    # check info
+    snap info shadowsocks-libev
+    ```
+2. Step 2: server configuration
+   * Make a new configuration file ```touch /snap/bin/config.json```
+   * Open the new file and fill in the following information
+        ```json
+        {
+        "server":"0.0.0.0",
+        "nameserver":"8.8.8.8",
+        "server_port":8828,
+        "local_port":1080,
+        "password":"password",
+        "method":"chacha20-ietf-poly1305",
+        "timeout":600,
+        "mode": "tcp_and_udp"
+        }
+        ```
+    * In the VPS setting, allow the TCP and UTP traffic at port `8828` 
+    * Navigate to `cd /snap/bin/` and it has the following files:
+        ```
+        config.json                   shadowsocks-libev.ss-redir
+        newpid                        shadowsocks-libev.ss-server
+        shadowsocks-libev.ss-local    shadowsocks-libev.ss-tunnel
+        shadowsocks-libev.ss-manager  ss-server-pid
+        ```
+    * Can start the server with `shadowsocks-libev.ss-server -c config.json`. However this method we must keep the terminal open. Otherwise, the server will stop after we close the terminal
+    * Use `netstat -lptn` to check the internet ports that are using. 
+3. Step 3: Use it as a service. 
+    * Create a new file. `sudo touch /etc/systemd/system/shadowsocks-libev.service`
+    * Open the file and fill in the following contents.
+        ```
+        [Unit]
+          Description=Shadowsocks-Libev Server
+          After=network-online.target
+            
+        [Service]
+          Type=simple
+          ExecStart=/usr/bin/snap run shadowsocks-libev.ss-server -c /snap/bin/config.json
+          Restart=always
+          RestartSec=2
+            
+        [Install]
+        WantedBy=multi-user.target
+        ```
+    * Start the server as a service
+        ```bash
+        # start the service
+        sudo systemctl start shadowsocks-libev.service
+        # enable auto start after rebooting
+        sudo systemctl enable shadowsocks-libev.service
+        # check the service
+        systemctl status shadowsocks-libev.service
+        ```
+
+### Install a client on an android phone. 
+Can either download from google play store or github release. Go in and make the configuration
+
+### Install a client on an android TV.
+I have a android TV (Xiaomi Stick). It comes with Google play. 
+
+1. Install the following apps from google play. 
+   * X-plore File Manger. (To open json files, which will be used in vps client).
+   * Send files to TV. (Install both on mobile and android TV. To transfer files between mobile and android TV).
+2. Export the configuration file from phone client. It is named as `profiles.json`. 
+3. Download the following apk files.
+   *  极光TV [link](https://tv.qq.com/)
+   *  奇异果TV [link](https://app.iqiyi.com/tv/player/)
+   *  Shadowsocks android client [link](https://github.com/shadowsocks/shadowsocks-android/releases/download/v5.2.4/shadowsocks-tv-google--universal-5.2.4.apk)
+4. Transfer the `profiles.json` file and the apk files to TV through `Send files to TV`
+5. Install the apk files. 
+6. Open Shadowsocks client and choose `replace from files` and find the 'profiles.json' file. Then the server, port, and password will be updated.
+7. Enjoy the TV side. 
+
+### Use the service from a linux machine. 
+* install shadowsocks-libev on a local machine
+* use `shadowsocks-libev.ss-local` as the local client. Also need to make a configuration file. Check the following example. `sudo touch /var/snap/shadowsocks-libev/common/client-config.json`
+  ```
+  {
+    "server":"SERVER IP ADDRESS",
+    "mode":"tcp_and_udp",
+    "server_port":8828,
+    "local_address":"127.0.0.1",
+    "local_port":1080,
+    "password":"password",
+    "timeout":60,
+    "name_server":"8.8.8.8",
+    "method":"chacha20-ietf-poly1305"
+  }
+  ```  
+* navigate to `cd /snap/bin/`
+* use `shadowsocks-libev.ss-local -c /var/snap/shadowsocks-libev/common/client-config.json` to start the local client connection. **NOTE** Have tried to build the the json file `/snap/bin/client-config.json`. It comes with error **Invalid config path**. Not clear why. But might be problems of snap links. The folder `/snap/bin/` looks kind of special. 
+* need to configure proxy for the application that we want to use. For example firefox
+
+<div style="text-align: center"><img src="/assets/images/firefox_proxy.png" alt="food pie chart" width="600"/></div>
+<div style="text-align: center"><img src="/assets/images/firefox_ip.png" alt="food pie chart" width="600"/></div>
+
+
+  
