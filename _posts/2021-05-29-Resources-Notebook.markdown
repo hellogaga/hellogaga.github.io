@@ -120,6 +120,7 @@ The tool is in [Github](https://github.com/shadowsocks). Their website is [here]
         ```
     * Can start the server with `shadowsocks-libev.ss-server -c config.json`. However this method we must keep the terminal open. Otherwise, the server will stop after we close the terminal
     * Use `netstat -lptn` to check the internet ports that are using. 
+    * **NOTE** The `nameserver` setting is dependent on the location of the server and the purpose. For example, if the server is located in China, it is useless to set the name server as `8.8.8.8`, which is a Google DNS. Because the DNS server cannot be accessed anyway. In that case, it is better to set the `nameserver` as `114.114.114.114`, which is a Chinese domestic DNS server. 
 3. Step 3: Use it as a service. 
     * Create a new file. `sudo touch /etc/systemd/system/shadowsocks-libev.service`
     * Open the file and fill in the following contents.
@@ -188,6 +189,31 @@ I have a android TV (Xiaomi Stick). It comes with Google play.
 
 <div style="text-align: center"><img src="/assets/images/firefox_proxy.png" alt="food pie chart" width="600"/></div>
 <div style="text-align: center"><img src="/assets/images/firefox_ip.png" alt="food pie chart" width="600"/></div>
+
+### OpenWrt on Raspberry pi
+OpenWrt is an open-source project for embedded operating system based on Linux. OpenWrt can be used as a Router system. Simply download the Firmware and burn it in a SD card. Raspberry pi can then boot and run OpenWrt. It has many functions.
+
+#### Download firmware and burn it into SD card. 
+First check the version of Raspberry pi and different version of firmware at this [link](https://mlapp.cn/1004.html).
+* Download the firmware from this [Github repo](https://github.com/SuLingGG/OpenWrt-Rpi).
+* Use **Etcher** to burn the downloaded firmware into SD card. 
+* Insert the SD card and boot. 
+
+#### RPi Configuration
+* The initial IP address of the OpenWrt will be `192.168.1.1`. This address needs to be revised before we can connect the RPi into our local network. This can be done by assigning a static IP to local computer. For example IP `192.168.1.33` and sub mask `255.255.255.0`. Connect the local PC with RPI and use browser to log into `192.168.1.1`. 
+* A password will be need. The default setting is `password`. 
+* Once logged into the OpenWrt system, we can revise the settings of the 'LAN' port. Assign a new static IP address to avoid collision with Router. The gateway of RPi should be the address of main router. In this case, it will be `192.168.1.1`. **Uncheck** the DHCP service in OpenWRT. Then Save and Exit.
+* Unplug the RPi from PC and connect directly to Router. 
+* Now the RPi can be accessed from any device in the same local network. 
+
+#### A problem about firmware
+I have two RPi. One model 2b and one model 4. On model 2b I installed "openwrt-bcm27xx-bcm2709-rpi-2-ext4-factory.img.gz" and on model 4 I installed "openwrt-bcm27xx-bcm2711-rpi-4-squashfs-factory". They differ in the file system. However, I found that it is very difficult to save configurations in Model 4 with the 'squashfs'. It is almost impossible to save configurations. Not sure why. Will test the ext4. 
+
+#### Use the SS services in RPi
+TBC
+
+#### Other devices use RPi as a local gateway.
+TBC
 
 
   
