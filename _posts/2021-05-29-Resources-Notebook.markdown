@@ -200,20 +200,26 @@ First check the version of Raspberry pi and different version of firmware at thi
 * Insert the SD card and boot. 
 
 #### RPi Configuration
-* The initial IP address of the OpenWrt will be `192.168.1.1`. This address needs to be revised before we can connect the RPi into our local network. This can be done by assigning a static IP to local computer. For example IP `192.168.1.33` and sub mask `255.255.255.0`. Connect the local PC with RPI and use browser to log into `192.168.1.1`. 
+* The initial IP address of the OpenWrt will be `192.168.1.1`. This address needs to be revised before we can connect the RPi into our local network. This can be done by assigning a static IP to local computer. For example IP `192.168.1.117` and sub mask `255.255.255.0`. Connect the local PC with RPI and use browser to log into `192.168.1.1`. 
 * A password will be need. The default setting is `password`. 
 * Once logged into the OpenWrt system, we can revise the settings of the 'LAN' port. Assign a new static IP address to avoid collision with Router. The gateway of RPi should be the address of main router. In this case, it will be `192.168.1.1`. **Uncheck** the DHCP service in OpenWRT. Then Save and Exit.
 * Unplug the RPi from PC and connect directly to Router. 
 * Now the RPi can be accessed from any device in the same local network. 
+<div style="text-align: center"><img src="/assets/images/lan_setup.png" alt="rpi lan setup" width="600"/></div>
 
 #### A problem about firmware
 I have two RPi. One model 2b and one model 4. On model 2b I installed "openwrt-bcm27xx-bcm2709-rpi-2-ext4-factory.img.gz" and on model 4 I installed "openwrt-bcm27xx-bcm2711-rpi-4-squashfs-factory". They differ in the file system. However, I found that it is very difficult to save configurations in Model 4 with the 'squashfs'. It is almost impossible to save configurations. Not sure why. Will test the ext4. 
 
-#### Use the SS services in RPi
-TBC
+#### RPi wifi setup
+Follow the example given in the following picture. Be careful with banwidth as well as the location. The wifi might function not well if changing. 
+<div style="text-align: center"><img src="/assets/images/wifi_setup.png" alt="rpi wifi setup" width="600"/></div>
 
-#### Other devices use RPi as a local gateway.
-TBC
+#### Configure the SS using SSR+ service. 
+Follow the following pictures. Add the server first. 
+<div style="text-align: center"><img src="/assets/images/SSR_setup1.png" alt="rpi SSR setup" width="600"/></div>
+<div style="text-align: center"><img src="/assets/images/SSR_setup2.png" alt="rpi SSR setup" width="600"/></div>
+<div style="text-align: center"><img src="/assets/images/SSR_setup3.png" alt="rpi SSR setup" width="600"/></div>
+<div style="text-align: center"><img src="/assets/images/SSR_setup4.png" alt="rpi SSR setup" width="600"/></div>
 
 
   
