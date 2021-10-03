@@ -124,7 +124,7 @@ virtualenv --version
 * run `virtualenv py_env`. `py_env` is the virtual environment name. 
 * run `source py_env/bin/activate` to activate the virtual environment. 
 * use `pip` or `pip3` to install required packages. 
-* run `deactivat` to deactivate from the virtual environment. 
+* run `deactivate` to deactivate from the virtual environment. 
 
 ### Build a virtualenv with specific python version
 ```
@@ -134,15 +134,3 @@ virtualenv --python=/usr/bin/python3.7 py_37
 
 ### How to delete the virtualenv
 Just delete the `py_env` folder.
-
-
-# What is .bashrc and where it is
-## What is .bashrc
-
-
-## where it is
-```bash
-cd ~ # this is the same as cd /home/yang
-ls -la |more
-```
-More info is at this [page](https://askubuntu.com/questions/127056/where-is-bashrc)
