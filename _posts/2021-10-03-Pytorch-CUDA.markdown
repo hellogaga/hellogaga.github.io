@@ -21,8 +21,8 @@ The installation guide can be found [here](https://docs.nvidia.com/cuda/cuda-ins
 My PC and OS:
 * Ubuntu 21.10
 * GeForce GTX 1050
+<br>
 ```console
-# OS
 yang@yzubuntu:~$ lsb_release -a
 No LSB modules are available.
 Distributor ID:	Ubuntu
@@ -30,7 +30,6 @@ Description:	Ubuntu 21.04
 Release:	21.04
 Codename:	hirsute
 
-# kernel
 yang@yzubuntu:~$ uname -r
 5.11.0-38-generic
 ```
@@ -124,3 +123,12 @@ tensor([[0.2932, 0.9057, 0.3990],
 
 ```
 
+## Check Pytorch Use CUDA 
+Create a file `test2.py` and add the following.
+```python
+import os
+import torch
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+print('Using {} device'.format(device))
+
+```
