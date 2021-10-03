@@ -21,7 +21,8 @@ The installation guide can be found [here](https://docs.nvidia.com/cuda/cuda-ins
 My PC and OS:
 * Ubuntu 21.10
 * GeForce GTX 1050
-<br>
+
+Check the version of Ubuntu
 ```console
 yang@yzubuntu:~$ lsb_release -a
 No LSB modules are available.
@@ -29,12 +30,16 @@ Distributor ID:	Ubuntu
 Description:	Ubuntu 21.04
 Release:	21.04
 Codename:	hirsute
+```
 
+Check the version of Linux Kernel.
+```
 yang@yzubuntu:~$ uname -r
 5.11.0-38-generic
 ```
 
 ## check the GPU
+
 ```console
 yang@yzubuntu:~$ lspci | grep -i nvidia
 01:00.0 VGA compatible controller: NVIDIA Corporation GP107 [GeForce GTX 1050] (rev a1)
