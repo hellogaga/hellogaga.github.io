@@ -19,7 +19,7 @@ The installation guide can be found [here](https://docs.nvidia.com/cuda/cuda-ins
 **NOTE:** In the official installation, the supported Ubuntu is 20.04. However, it seems the current version of CUDA (11.4.1) is compatible with Ubuntu 21.04. 
 
 My PC and OS:
-* Ubuntu 21.10
+* Ubuntu 21.04
 * GeForce GTX 1050
 
 Check the version of Ubuntu
