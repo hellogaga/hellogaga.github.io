@@ -129,6 +129,12 @@ Install the chrome extension for gnome. Install through `sudo apt install chrome
 2. Simple System Monitor
 3. Application Menu
 
+### Enabling SSH on Ubuntu
+This is quite straight-forward. Install the openssh server and start the service. 
+```console
+$ sudo apt install openssh-server
+$ sudo systemctl status ssh
+```
 
 ## Install python on LTS ubuntu
 Check this [tutorial](https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/). The following tutorial is for the LTS version of Ubuntu. For Ubuntu verison other than the LTS, please refer to "Python Configuration in Ubuntu 21.04 or 21.10".
