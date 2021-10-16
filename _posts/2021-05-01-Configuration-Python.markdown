@@ -1,12 +1,13 @@
 ---
-title: "Python Configuration in Ubuntu 21.04"
-last_modified_at: 2021-05-01T17:20:00+01:00
+title: "Python Configuration in Ubuntu 21.04 or 21.10"
+last_modified_at: 2021-10-16T17:20:00+01:00
 
 categories:
   - Blog
 tags:
   - linux
   - Ubuntu 21.04
+  - Ubuntu 21.10
   - Python
 toc: true
 toc_label: "Table of Contents"
@@ -25,8 +26,8 @@ Normally, it is very easy to install in Ubuntu. Follow this excellent [page](htt
 
 ## Install python3.8 from Resource
 1. Install required packages for Python. Some of the following packages might be missing and cannot be installed. Just delete the missing packages. 
-   ```bash
-   $ sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
+   ```console
+   $ sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev build-essential libreadline-dev libffi-dev zlib1g-dev liblzma-dev lzma
    ```
 2. Download the *.tgz from the [resource](https://www.python.org/downloads/source/). 
 3. Navigate to the downloaded place and use the following command to unzip the file. `tar xf Python-3.8.9.tgz`
@@ -50,6 +51,22 @@ $ tar xf Python-3.8.12.tgz
 $ cd Python-3.8.12/
 $ ./configure
 $ sudo make && sudo make install
+```
+
+## Use Python built-in venv to manage virtual environments
+### Use the default python
+If using python3, will use the default python to create a virtual environment.
+```console
+$ python3 -m venv test_env
+$ cd /test_env
+$ source bin/activate
+```
+### Use another version of python
+You can specify a specific version of python that you want to use in the virtual environment.
+```console
+$ python3.9 -m venv test_env2
+$ cd /test_env2
+$ source bin/activate
 ```
 
 ## Use Virtualenv to configure the virtual development environment. 
