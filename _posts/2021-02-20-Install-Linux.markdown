@@ -108,6 +108,27 @@ $ sudo cp *.ttc /usr/share/fonts/truetype/
 ```console
 $ sudo cp *.otf *.OTF /usr/share/fonts/opentype
 ```
+### USB-Wifi adapter
+1. Check the model of the wifi adapter
+  ```console
+  $ lsusb
+  Bus 001 Device 004: ID 0bda:c811 Realtek Semiconductor Corp. 802.11ac NIC
+  ```
+2. Download and install the driver, check this [discussion](https://askubuntu.com/questions/1162974/wireless-usb-adapter-0bdac811-realtek-semiconductor-corp). The driver repo is [here](https://github.com/brektrou/rtl8821CU)
+  ```console
+  $ cd ~/Downloads/
+  $ git clone https://github.com/brektrou/rtl8821CU.git
+  $ cd rtl8821CU/
+  $ sudo ./dkms-install.sh
+  ```
+3. Reboot the PC. Now you can see the WIFI. 
+
+### Gnome extensions
+Install the chrome extension for gnome. Install through `sudo apt install chrome-gnome-shell`. After installation, go to the gnome [page](https://extensions.gnome.org/) to install extensions for gnome. I used to install the following extensions.
+1. OpenWeather
+2. Simple System Monitor
+3. Application Menu
+
 
 ## Install python on LTS ubuntu
 Check this [tutorial](https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/). The following tutorial is for the LTS version of Ubuntu. For Ubuntu verison other than the LTS, please refer to "Python Configuration in Ubuntu 21.04 or 21.10".
