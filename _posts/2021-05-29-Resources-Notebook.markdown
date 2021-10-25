@@ -195,8 +195,9 @@ OpenWrt is an open-source project for embedded operating system based on Linux. 
 
 #### Download firmware and burn it into SD card. 
 First check the version of Raspberry pi and different version of firmware at this [link](https://mlapp.cn/1004.html).
-* Download the firmware from this [Github repo](https://github.com/SuLingGG/OpenWrt-Rpi).
+* Download the firmware from this [Github repo](https://github.com/SuLingGG/OpenWrt-Rpi). Please note that there are two types of file system (ext4 and quashfs). I used ext4 because this can be easily managed by Gparted. Please check the summry on this [page](https://mlapp.cn/1004.html).
 * Use **Etcher** to burn the downloaded firmware into SD card. 
+* The default partition is very little, which cannot make full use of the SD card. Use this [link](https://mlapp.cn/1011.html) to enlarge the size of the partition. It is very easy with Gparted on Linux system.
 * Insert the SD card and boot. 
 
 #### RPi Configuration
@@ -209,10 +210,13 @@ First check the version of Raspberry pi and different version of firmware at thi
 
 #### A problem about firmware
 I have two RPi. One model 2b and one model 4. On model 2b I installed "openwrt-bcm27xx-bcm2709-rpi-2-ext4-factory.img.gz" and on model 4 I installed "openwrt-bcm27xx-bcm2711-rpi-4-squashfs-factory". They differ in the file system. However, I found that it is very difficult to save configurations in Model 4 with the 'squashfs'. It is almost impossible to save configurations. Not sure why. Will test the ext4. 
+<br>
+The same problem reoccurs after a accident shutdown of rpi4. When using SSH to log in, it is noticed that we cannot make any changes to the files. It comes with the error `read only file system`. This happens to be a known problem, which is discussed [here](https://issueexplorer.com/issue/SuLingGG/OpenWrt-Rpi/155). The authors of the rpi firmware gives a [solution](https://openwrt.cc/restore/). As far as I understand, this problem is caused by the SD card. The previous file installations still remain in the sd card. There is not a 100% formatting. The author proposed to rewrite the SD card by a blank image and then reburn the openwrt firmware. The problem is solved after doing so. For the sake of future use, I copied the blank image, and you can find it [here](/assets/others/Restore-SDCard-4G.img.zip).
 
 #### RPi wifi setup
 Follow the example given in the following picture. Be careful with banwidth as well as the location. The wifi might function not well if changing. 
 <div style="text-align: center"><img src="/assets/images/wifi_setup.png" alt="rpi wifi setup" width="600"/></div>
+External wifi adapters did not function well due to lack of proper driver. This [youtube video](https://www.youtube.com/watch?v=h_m7mU2LYH4&t=326s) recommends one usb wifi adapter on Nano RS. 
 
 #### Configure the SS using SSR+ service. 
 Follow the following pictures. Add the server first. 
@@ -221,5 +225,10 @@ Follow the following pictures. Add the server first.
 <div style="text-align: center"><img src="/assets/images/SSR_setup3.png" alt="rpi SSR setup" width="600"/></div>
 <div style="text-align: center"><img src="/assets/images/SSR_setup4.png" alt="rpi SSR setup" width="600"/></div>
 
+#### Use the rpi to re-route traffic in other devices. 
+Let us assume rpi openwrt has the following IP address: 192.168.1.118
+* Address: assign a IP address, for example 192.168.1.11
+* Netmask: 255.255.255.0
+* Gateway: 192.168.1.118
+* DNS: 8.8.8.8
 
-  
