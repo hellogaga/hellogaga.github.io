@@ -4,7 +4,7 @@ title: "About me"
 classes: wide
 ---
 
-I am an energy system analyst. With all colleagues in the energy sector, we are trying our best to reduce carbon emissions and provide clean, cheap and reliable energy to everyone. <br>
+I am an data analytics lead in the energy sector. With all colleagues in the energy sector, we are trying our best to reduce carbon emissions and provide clean, cheap and reliable energy to everyone. <br>
 
 I would like to see how data science is applied in the energy sector.I am particularly interested in:
 * Python
