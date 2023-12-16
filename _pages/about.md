@@ -12,6 +12,7 @@ I would like to see how data science is applied in the energy sector.I am partic
 * Web development
 * Integrated energy system
 * Climate Change
+* Distributed Renewable Energy System
 <br>
 
 I would like to use this place to record what I have learned and came across. If you think what I posted here interests you, do not hesitate to contact me. You can always <a href="mailto:zy910304@gmail.com" target="_blank">email me</a>.
