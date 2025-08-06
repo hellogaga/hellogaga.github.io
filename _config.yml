@@ -16,7 +16,7 @@
 title: Yang's Blog
 email: zy910304@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A place to learn, to discover and to share.
+  A place to learn, to discover, and to share.
 twitter_username: username
 github_username: hellogaga
 minimal_mistakes_skin: "default"
@@ -24,7 +24,7 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.23.0"
+remote_theme: "mmistakes/minimal-mistakes@4.26.1"
 # Outputting
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
@@ -54,12 +54,11 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-analytics
 
 author:
   name   : "Yang Zhang"
   avatar : "/assets/images/coffee.jpg"
-  bio    : "Energy System Analyst, PhD"
+  bio    : "Data Analytics Lead, PhD"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -110,11 +109,7 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# google_analytics: G-JTCHQJG003
+google_analytics: G-3VWL0T81LQ
 repository: hellogaga/hellogaga.github.io
 
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-3VWL0T81LQ"
-    anonymize_ip: false # default
+# Remove the analytics section - use google_analytics above instead
