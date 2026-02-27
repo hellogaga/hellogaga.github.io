@@ -1,0 +1,65 @@
+# Blowfish Theme Parameters
+[params]
+  # Site
+  colorScheme = "blowfish"
+  defaultAppearance = "dark"
+  autoSwitchAppearance = true
+  enableSearch = true
+  enableCodeCopy = true
+
+  # Homepage
+  [params.homepage]
+    layout = "background"    # hero image landing page
+    homepageImage = "images/hero.jpg"
+    showRecent = true
+    showRecentItems = 6
+    showMoreLink = true
+    showMoreLinkDest = "/blog"
+    cardView = true
+    cardViewScreenWidth = false
+    layoutBackgroundBlur = true
+
+  # Article settings
+  [params.article]
+    showDate = true
+    showViews = false
+    showLikes = false
+    showDateUpdated = true
+    showAuthor = true
+    showBreadcrumbs = true
+    showDraftLabel = true
+    showEdit = false
+    showHeadingAnchors = true
+    showPagination = true
+    showReadingTime = true
+    showTableOfContents = true
+    showTaxonomies = true
+    showWordCount = false
+    showSummary = true
+    sharingLinks = ["twitter", "linkedin", "reddit", "email"]
+
+  # List settings
+  [params.list]
+    showBreadcrumbs = true
+    showSummary = true
+    showTableOfContents = false
+    groupByYear = true
+    cardView = true
+
+  # Taxonomy settings
+  [params.taxonomy]
+    showTermCount = true
+    showBreadcrumbs = true
+
+  # Author
+  [params.author]
+    name = "Yang Zhang"
+    image = "images/author.jpg"
+    headline = "Data Analytics Lead | PhD | Clean Energy"
+    bio = "Data analytics lead in the energy sector. Passionate about Python, data science, and clean energy."
+    links = [
+      { email = "mailto:zy910304@gmail.com" },
+      { github = "https://github.com/hellogaga" },
+      { linkedin = "https://www.linkedin.com/in/yangzhangenergy" },
+      { medium = "https://medium.com/@hellogaga" },
+    ]

@@ -1,0 +1,25 @@
+{{- $id := .Get "id" | default "plotly-chart" -}} {{- $height := .Get "height" |
+default "500px" -}} {{- $json := .Get "json" -}}
+
+<script src="https://cdn.plot.ly/plotly-2.35.0.min.js" charset="utf-8"></script>
+
+<div
+  id="{{ $id }}"
+  style="width:100%; min-width:100%; height:{{ $height }}; max-width:none;"
+></div>
+
+{{ if $json }} {{ $dataFile := .Page.Resources.GetMatch $json }} {{ if $dataFile
+}}
+<script>
+  (function() {
+    var el = document.getElementById('{{ $id }}');
+    var chartData = {{ $dataFile.Content | safeJS }};
+    chartData.layout.autosize = true;
+    Plotly.newPlot('{{ $id }}', chartData.data, chartData.layout, {responsive: true});
+    window.addEventListener('resize', function() { Plotly.Plots.resize(el); });
+    setTimeout(function() { Plotly.Plots.resize(el); }, 200);
+  })();
+</script>
+{{ else }}
+<p style="color: red">Chart data file not found in page bundle.</p>
+{{ end }} {{ end }}

@@ -1,0 +1,93 @@
+{
+  "data": [
+    {
+      "x": [
+        "00:00",
+        "01:00",
+        "02:00",
+        "03:00",
+        "04:00",
+        "05:00",
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00",
+        "23:00"
+      ],
+      "y": [
+        18.3, 18.1, 17.9, 17.8, 17.8, 18.0, 20.5, 23.0, 25.5, 27.0, 28.5, 30.0,
+        31.5, 32.5, 32.0, 29.0, 27.5, 29.0, 30.5, 31.0, 29.5, 26.0, 22.5, 20.0
+      ],
+      "type": "scatter",
+      "mode": "lines+markers",
+      "name": "Temperature (°C)",
+      "line": { "color": "#ef4444", "width": 2 },
+      "fill": "tozeroy",
+      "fillcolor": "rgba(239,68,68,0.1)"
+    }
+  ],
+  "layout": {
+    "title": {
+      "text": "Battery Temperature Profile - Feb 27, 2026",
+      "font": { "size": 16 }
+    },
+    "shapes": [
+      {
+        "type": "line",
+        "x0": "00:00",
+        "x1": "23:00",
+        "y0": 35,
+        "y1": 35,
+        "line": { "color": "red", "width": 2, "dash": "dash" }
+      },
+      {
+        "type": "line",
+        "x0": "00:00",
+        "x1": "23:00",
+        "y0": 10,
+        "y1": 10,
+        "line": { "color": "blue", "width": 2, "dash": "dash" }
+      }
+    ],
+    "annotations": [
+      {
+        "x": "22:00",
+        "y": 36,
+        "text": "High Limit",
+        "showarrow": false,
+        "font": { "color": "red" }
+      },
+      {
+        "x": "22:00",
+        "y": 11,
+        "text": "Low Limit",
+        "showarrow": false,
+        "font": { "color": "blue" }
+      }
+    ],
+    "hovermode": "x unified",
+    "template": "plotly_white",
+    "paper_bgcolor": "#ffffff",
+    "plot_bgcolor": "#f9fafb",
+    "font": { "color": "#333333" },
+    "xaxis": { "title": "Time", "gridcolor": "#e5e7eb" },
+    "yaxis": {
+      "title": "Temperature (°C)",
+      "range": [0, 45],
+      "gridcolor": "#e5e7eb"
+    }
+  }
+}
