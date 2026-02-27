@@ -1,0 +1,31 @@
+# Navigation Menus
+
+[[main]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 10
+
+[[main]]
+  name = "Battery"
+  pageRef = "battery"
+  weight = 20
+
+[[main]]
+  name = "Market"
+  pageRef = "market"
+  weight = 30
+
+[[main]]
+  name = "Categories"
+  pageRef = "categories"
+  weight = 40
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 50
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 60

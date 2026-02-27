@@ -1,0 +1,37 @@
+# Hugo Configuration
+baseURL = "https://zexergy.com/"
+languageCode = "en"
+title = "Yang's Blog"
+theme = "blowfish"
+
+# Pagination
+[pagination]
+  pagerSize = 10
+
+# Taxonomy
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
+# Markup
+[markup]
+  [markup.highlight]
+    noClasses = false
+    lineNos = true
+    style = "dracula"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+# Outputs (for search and RSS)
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Sitemap
+[sitemap]
+  changefreq = "daily"
+  priority = 0.5
