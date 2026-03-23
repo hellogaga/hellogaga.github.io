@@ -1,0 +1,13 @@
+{
+  "writer_model": "gemini-2.5-flash",
+  "reviewer_model": "claude-sonnet-4-20250514",
+  "report_date": "2026-03-22",
+  "area_code": "SE3",
+  "generated_at": "2026-03-23T07:55:08.375731",
+  "pipeline": "multi_agent_v1",
+  "timings": {
+    "draft_s": 32.6,
+    "review_s": 24.1,
+    "revision_s": 25.3
+  }
+}
