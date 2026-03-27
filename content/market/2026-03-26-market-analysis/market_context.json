@@ -1,0 +1,2600 @@
+{
+  "metadata": {
+    "report_date": "2026-03-26",
+    "area_code": "SE3",
+    "day_of_week": "Thursday",
+    "is_weekend": false,
+    "eur2sek": 10.77708
+  },
+  "exchange_rate": 10.77708,
+  "spot_prices": {
+    "hourly": [
+      {
+        "hour_cet": "00:00",
+        "sek_mwh": 147.08,
+        "eur_mwh": 13.65
+      },
+      {
+        "hour_cet": "01:00",
+        "sek_mwh": 88.42,
+        "eur_mwh": 8.2
+      },
+      {
+        "hour_cet": "02:00",
+        "sek_mwh": 71.29,
+        "eur_mwh": 6.61
+      },
+      {
+        "hour_cet": "03:00",
+        "sek_mwh": 63.51,
+        "eur_mwh": 5.89
+      },
+      {
+        "hour_cet": "04:00",
+        "sek_mwh": 92.33,
+        "eur_mwh": 8.57
+      },
+      {
+        "hour_cet": "05:00",
+        "sek_mwh": 109.6,
+        "eur_mwh": 10.17
+      },
+      {
+        "hour_cet": "06:00",
+        "sek_mwh": 492.11,
+        "eur_mwh": 45.66
+      },
+      {
+        "hour_cet": "07:00",
+        "sek_mwh": 604.92,
+        "eur_mwh": 56.13
+      },
+      {
+        "hour_cet": "08:00",
+        "sek_mwh": 598.21,
+        "eur_mwh": 55.51
+      },
+      {
+        "hour_cet": "09:00",
+        "sek_mwh": 455.47,
+        "eur_mwh": 42.26
+      },
+      {
+        "hour_cet": "10:00",
+        "sek_mwh": 306.28,
+        "eur_mwh": 28.42
+      },
+      {
+        "hour_cet": "11:00",
+        "sek_mwh": 137.52,
+        "eur_mwh": 12.76
+      },
+      {
+        "hour_cet": "12:00",
+        "sek_mwh": 65.44,
+        "eur_mwh": 6.07
+      },
+      {
+        "hour_cet": "13:00",
+        "sek_mwh": 63.67,
+        "eur_mwh": 5.91
+      },
+      {
+        "hour_cet": "14:00",
+        "sek_mwh": 86.75,
+        "eur_mwh": 8.05
+      },
+      {
+        "hour_cet": "15:00",
+        "sek_mwh": 245.23,
+        "eur_mwh": 22.76
+      },
+      {
+        "hour_cet": "16:00",
+        "sek_mwh": 437.61,
+        "eur_mwh": 40.61
+      },
+      {
+        "hour_cet": "17:00",
+        "sek_mwh": 549.31,
+        "eur_mwh": 50.97
+      },
+      {
+        "hour_cet": "18:00",
+        "sek_mwh": 586.92,
+        "eur_mwh": 54.46
+      },
+      {
+        "hour_cet": "19:00",
+        "sek_mwh": 597.18,
+        "eur_mwh": 55.41
+      },
+      {
+        "hour_cet": "20:00",
+        "sek_mwh": 573.72,
+        "eur_mwh": 53.23
+      },
+      {
+        "hour_cet": "21:00",
+        "sek_mwh": 554.13,
+        "eur_mwh": 51.42
+      },
+      {
+        "hour_cet": "22:00",
+        "sek_mwh": 533.84,
+        "eur_mwh": 49.53
+      },
+      {
+        "hour_cet": "23:00",
+        "sek_mwh": 512.88,
+        "eur_mwh": 47.59
+      }
+    ],
+    "stats": {
+      "avg_sek": 332.23,
+      "min_sek": 42.46,
+      "max_sek": 634.23,
+      "avg_eur": 30.83,
+      "min_eur": 3.94,
+      "max_eur": 58.85,
+      "peak_avg_sek": 397.15,
+      "offpeak_avg_sek": 202.37
+    }
+  },
+  "previous_day": {
+    "hourly": [
+      {
+        "hour_cet": "00:00",
+        "sek_mwh": 28.2,
+        "eur_mwh": 2.62
+      },
+      {
+        "hour_cet": "01:00",
+        "sek_mwh": 18.84,
+        "eur_mwh": 1.75
+      },
+      {
+        "hour_cet": "02:00",
+        "sek_mwh": 17.87,
+        "eur_mwh": 1.66
+      },
+      {
+        "hour_cet": "03:00",
+        "sek_mwh": 17.84,
+        "eur_mwh": 1.66
+      },
+      {
+        "hour_cet": "04:00",
+        "sek_mwh": 20.3,
+        "eur_mwh": 1.88
+      },
+      {
+        "hour_cet": "05:00",
+        "sek_mwh": 33.58,
+        "eur_mwh": 3.12
+      },
+      {
+        "hour_cet": "06:00",
+        "sek_mwh": 67.67,
+        "eur_mwh": 6.28
+      },
+      {
+        "hour_cet": "07:00",
+        "sek_mwh": 125.16,
+        "eur_mwh": 11.61
+      },
+      {
+        "hour_cet": "08:00",
+        "sek_mwh": 126.48,
+        "eur_mwh": 11.74
+      },
+      {
+        "hour_cet": "09:00",
+        "sek_mwh": 126.37,
+        "eur_mwh": 11.73
+      },
+      {
+        "hour_cet": "10:00",
+        "sek_mwh": 103.69,
+        "eur_mwh": 9.62
+      },
+      {
+        "hour_cet": "11:00",
+        "sek_mwh": 78.27,
+        "eur_mwh": 7.26
+      },
+      {
+        "hour_cet": "12:00",
+        "sek_mwh": 79.0,
+        "eur_mwh": 7.33
+      },
+      {
+        "hour_cet": "13:00",
+        "sek_mwh": 73.08,
+        "eur_mwh": 6.78
+      },
+      {
+        "hour_cet": "14:00",
+        "sek_mwh": 67.35,
+        "eur_mwh": 6.25
+      },
+      {
+        "hour_cet": "15:00",
+        "sek_mwh": 93.79,
+        "eur_mwh": 8.7
+      },
+      {
+        "hour_cet": "16:00",
+        "sek_mwh": 325.76,
+        "eur_mwh": 30.23
+      },
+      {
+        "hour_cet": "17:00",
+        "sek_mwh": 558.93,
+        "eur_mwh": 51.86
+      },
+      {
+        "hour_cet": "18:00",
+        "sek_mwh": 651.12,
+        "eur_mwh": 60.42
+      },
+      {
+        "hour_cet": "19:00",
+        "sek_mwh": 375.81,
+        "eur_mwh": 34.87
+      },
+      {
+        "hour_cet": "20:00",
+        "sek_mwh": 285.94,
+        "eur_mwh": 26.53
+      },
+      {
+        "hour_cet": "21:00",
+        "sek_mwh": 197.5,
+        "eur_mwh": 18.33
+      },
+      {
+        "hour_cet": "22:00",
+        "sek_mwh": 235.54,
+        "eur_mwh": 21.86
+      },
+      {
+        "hour_cet": "23:00",
+        "sek_mwh": 140.54,
+        "eur_mwh": 13.04
+      }
+    ],
+    "stats": {
+      "avg_sek": 160.36,
+      "min_sek": 15.57,
+      "max_sek": 733.45,
+      "avg_eur": 14.88,
+      "min_eur": 1.44,
+      "max_eur": 68.06,
+      "peak_avg_sek": 208.49,
+      "offpeak_avg_sek": 64.09
+    }
+  },
+  "area_comparison": [
+    {
+      "area": "SE1",
+      "avg_sek": 134.09,
+      "min_sek": 53.99,
+      "max_sek": 223.84
+    },
+    {
+      "area": "SE2",
+      "avg_sek": 111.52,
+      "min_sek": 53.89,
+      "max_sek": 231.49
+    },
+    {
+      "area": "SE3",
+      "avg_sek": 332.23,
+      "min_sek": 42.46,
+      "max_sek": 634.23
+    },
+    {
+      "area": "SE4",
+      "avg_sek": 610.15,
+      "min_sek": 32.55,
+      "max_sek": 1758.07
+    }
+  ],
+  "fcr_n": {
+    "avg_eur_mw": 14.87,
+    "min_eur_mw": 14.03,
+    "max_eur_mw": 16.23
+  },
+  "fcr_d": {
+    "up_avg": 1.79,
+    "up_min": 1.21,
+    "up_max": 3.49,
+    "down_avg": 1.97,
+    "down_min": 1.52,
+    "down_max": 3.22
+  },
+  "mfrr_cm": {
+    "up_avg": 3.78,
+    "up_min": 2.97,
+    "up_max": 5.89,
+    "down_avg": 5.17,
+    "down_min": 0.2,
+    "down_max": 10.0
+  },
+  "mfrr_eam": {
+    "imbalance_avg": 77.29,
+    "imbalance_min": 61.24,
+    "imbalance_max": 96.0,
+    "activated_up_total_mw": 0,
+    "activated_down_total_mw": 0,
+    "direction_counts": {
+      "Up": 18
+    },
+    "spread_vs_da": {
+      "avg_spread_eur": 71.01,
+      "max_up_spread_eur": 86.96,
+      "max_down_spread_eur": 57.49,
+      "up_regulation_hours": 5,
+      "down_regulation_hours": 0,
+      "avg_up_spread_eur": 71.01,
+      "hourly_profile": [
+        {
+          "hour_cet": "00:00",
+          "imbalance_eur": 83.37,
+          "da_eur": 12.8,
+          "spread_eur": 70.57,
+          "regulation": "Up"
+        },
+        {
+          "hour_cet": "01:00",
+          "imbalance_eur": 65.18,
+          "da_eur": 7.7,
+          "spread_eur": 57.49,
+          "regulation": "Up"
+        },
+        {
+          "hour_cet": "02:00",
+          "imbalance_eur": 72.44,
+          "da_eur": 6.2,
+          "spread_eur": 66.23,
+          "regulation": "Up"
+        },
+        {
+          "hour_cet": "03:00",
+          "imbalance_eur": 79.33,
+          "da_eur": 5.53,
+          "spread_eur": 73.8,
+          "regulation": "Up"
+        },
+        {
+          "hour_cet": "04:00",
+          "imbalance_eur": 95.0,
+          "da_eur": 8.04,
+          "spread_eur": 86.96,
+          "regulation": "Up"
+        }
+      ]
+    }
+  },
+  "weather": {
+    "forecasts": {
+      "Göteborg": {
+        "temp_min": 2.3,
+        "temp_max": 8.1,
+        "temp_avg": 5.3,
+        "wind_avg": 4.1,
+        "humidity_avg": 69.0,
+        "precip_total": 0.9,
+        "cloud_avg": 4.0
+      },
+      "Linköping": {
+        "temp_min": 1.7,
+        "temp_max": 9.2,
+        "temp_avg": 4.8,
+        "wind_avg": 4.1,
+        "humidity_avg": 77.0,
+        "precip_total": 1.2,
+        "cloud_avg": 6.0
+      },
+      "Stockholm": {
+        "temp_min": 3.0,
+        "temp_max": 9.3,
+        "temp_avg": 5.5,
+        "wind_avg": 3.8,
+        "humidity_avg": 76.0,
+        "precip_total": 0.2,
+        "cloud_avg": 6.0
+      }
+    },
+    "observations": {
+      "Göteborg": {
+        "temp_min": 5.4,
+        "temp_max": 7.8,
+        "wind_avg": null
+      },
+      "Linköping": {
+        "temp_min": 2.1,
+        "temp_max": 8.2,
+        "wind_avg": 5.2
+      },
+      "Stockholm": {
+        "temp_min": 2.8,
+        "temp_max": 7.5,
+        "wind_avg": null
+      }
+    }
+  },
+  "daily_price_history": {
+    "days": 7,
+    "columns": [
+      "date",
+      "day",
+      "avg_sek",
+      "min_sek",
+      "max_sek",
+      "peak_avg_sek",
+      "offpeak_avg_sek"
+    ],
+    "data": [
+      [
+        "2026-03-19",
+        "Thu",
+        919.4,
+        148.6,
+        2194.6,
+        1041.8,
+        674.8
+      ],
+      [
+        "2026-03-20",
+        "Fri",
+        1100.8,
+        244.1,
+        2178.9,
+        1116.4,
+        1069.4
+      ],
+      [
+        "2026-03-21",
+        "Sat",
+        435.6,
+        53.8,
+        837.3,
+        425.1,
+        456.7
+      ],
+      [
+        "2026-03-22",
+        "Sun",
+        318.0,
+        -14.4,
+        650.2,
+        279.4,
+        395.1
+      ],
+      [
+        "2026-03-23",
+        "Mon",
+        383.5,
+        41.6,
+        623.6,
+        444.8,
+        261.0
+      ],
+      [
+        "2026-03-24",
+        "Tue",
+        343.5,
+        27.7,
+        785.0,
+        332.2,
+        366.3
+      ],
+      [
+        "2026-03-25",
+        "Wed",
+        160.4,
+        15.6,
+        733.4,
+        208.5,
+        64.1
+      ]
+    ],
+    "period_avg_sek": 523.0
+  },
+  "weather_history": {
+    "days": 7,
+    "columns": [
+      "date",
+      "temp_avg_c",
+      "wind_avg_ms",
+      "cloud_avg_pct",
+      "precip_mm"
+    ],
+    "data": [
+      [
+        "2026-03-19",
+        5.9,
+        3.1,
+        6.0,
+        5.3
+      ],
+      [
+        "2026-03-20",
+        4.6,
+        2.3,
+        3.0,
+        1.0
+      ],
+      [
+        "2026-03-21",
+        5.3,
+        3.4,
+        5.0,
+        0.0
+      ],
+      [
+        "2026-03-22",
+        5.1,
+        4.0,
+        3.0,
+        0.0
+      ],
+      [
+        "2026-03-23",
+        5.2,
+        4.7,
+        4.0,
+        7.2
+      ],
+      [
+        "2026-03-24",
+        5.1,
+        5.4,
+        7.0,
+        41.9
+      ],
+      [
+        "2026-03-25",
+        6.1,
+        6.2,
+        7.0,
+        150.1
+      ]
+    ]
+  },
+  "ancillary_history": {
+    "days": 7,
+    "columns": [
+      "date",
+      "fcr_n_avg",
+      "fcr_d_up_avg",
+      "fcr_d_down_avg",
+      "mfrr_up_hours",
+      "mfrr_down_hours",
+      "mfrr_imbalance_avg"
+    ],
+    "data": [
+      [
+        "2026-03-19",
+        35.0,
+        6.2,
+        7.7,
+        2,
+        22,
+        54.5
+      ],
+      [
+        "2026-03-20",
+        25.6,
+        4.7,
+        10.0,
+        2,
+        21,
+        68.7
+      ],
+      [
+        "2026-03-21",
+        22.0,
+        2.6,
+        4.1,
+        10,
+        14,
+        24.1
+      ],
+      [
+        "2026-03-22",
+        21.3,
+        3.3,
+        7.6,
+        8,
+        16,
+        27.8
+      ],
+      [
+        "2026-03-23",
+        30.5,
+        3.6,
+        5.6,
+        15,
+        9,
+        93.2
+      ],
+      [
+        "2026-03-24",
+        19.5,
+        5.1,
+        9.9,
+        5,
+        19,
+        18.1
+      ],
+      [
+        "2026-03-25",
+        21.2,
+        2.5,
+        5.1,
+        7,
+        17,
+        15.1
+      ]
+    ]
+  },
+  "bess_optimization": {},
+  "news": [
+    {
+      "title": "Expert om våldsveckan: ”Kan vara hämnddåd”",
+      "summary": "Två unga män och två tonårspojkar har skjutits ihjäl på mindre än en vecka. Ytterligare en person har skadats i en femte skjutning. ”Det är fullt möjligt att skjutningarna runt om i Sverige är olika hämnddåd”, säger kriminolog Manne Gerell.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 16:07 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            26.03.2026 16:06:40\n        \n        \n            Publisher:\n            Vattenfall AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                26.03.2026 15:59\n            \n                    \n                Event stop:\n                26.03.2026 17:10\n            \n                    \n                Areas:\n                SE3\n            \n                    \n                Unit name:\n        ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 16:06 CET"
+    },
+    {
+      "title": "Stora störningar på tunnelbanans gröna linje",
+      "summary": "",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 15:53 CET"
+    },
+    {
+      "title": "Hon får dödshjälp – mot familjens vädjan",
+      "summary": "25-åriga Noelia Castillo Ramos blev våldtagen och kastade sig ut genom ett fönster. Hon hämtade sig aldrig. I dag ska hon få dödshjälp i Spanien – efter att hennes föräldrar förgäves försökt att stoppa den.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 15:47 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, LT → LV, LV → LT",
+      "summary": "Published:\n            26.03.2026 15:46:09\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Capacity calculated based on principles defin...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 15:46 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, LT → LV, LV → LT",
+      "summary": "Published:\n            26.03.2026 15:45:53\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Capacity calculated based on principles defin...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 15:45 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, LT → LV, LV → LT",
+      "summary": "Published:\n            26.03.2026 15:38:13\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Capacity calculated based on principles defin...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 15:38 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, SE2, Blackfjället",
+      "summary": "Published:\n            26.03.2026 15:26:01\n        \n        \n            Publisher:\n            RES Renewable Norden AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Substation trip\n            \n            \n ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 15:26 CET"
+    },
+    {
+      "title": "Mörkt för älgen i södra Sverige: ”Kan försvinna”",
+      "summary": "Älgkalvarna i södra Sverige blir allt färre – och klenare. Samtidigt blir parasiter och sjukdomar vanligare hos djuren. På sikt riskerar älgarna att försvinna från delar av Sverige, säger forskaren Fredrik Widemo.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 15:08 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, NL, Windpark Drentse Monden Oostermoer",
+      "summary": "Published:\n            26.03.2026 15:00:13\n        \n        \n            Publisher:\n            Ventolines B.V.\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Planned windfarm shutdown due to local c...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 15:00 CET"
+    },
+    {
+      "title": "Riksbankstoppen: Vi är på tårna",
+      "summary": "Energiprischocken från Irankriget kan skapa andrahandseffekter – dyrare produktion, prishöjningar och höga lönekrav – som biter sig fast i svensk ekonomi, varnar vice riksbankschef Anna Seim.– Där vill vi ju inte hamna, så därför är vi på tårna och uppmärksamma nu, säger hon till TT.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 14:52 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Consumption, NO3, Norske Skog Skogn / Unit",
+      "summary": "Published:\n            26.03.2026 14:50:00\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Power outage\n            \n            \n    Cons...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 14:50 CET"
+    },
+    {
+      "title": "Får man skratta åt Tourettes syndrom?",
+      "summary": "Filmen om John Davidson är grundad i en väldigt brittisk feelgood-tradition.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 14:30 CET"
+    },
+    {
+      "title": "Lundin och Schneiter riskerar långa straff",
+      "summary": "Civila fördrevs och dödades när regimen i Sudan gick till anfall för att möjliggöra Lundin Oils verksamhet i landet under början av 2000-talet.Det menar åklagare Henrik Attorps, som nu yrkar på fängelse i tio respektive sex år för de tidigare bolagstopparna Ian Lundin och Alex Schneiter.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 14:27 CET"
+    },
+    {
+      "title": "Ny OS-regel stoppar alla som bytt kön",
+      "summary": "Internationella olympiska kommittén (IOK) inför könstester för kvinnor till OS 2028.Män som bytt kön stoppas från att tävla som kvinna.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 14:21 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, NO2 → NL",
+      "summary": "Published:\n            26.03.2026 14:14:22\n        \n        \n            Publisher:\n            European Network of Transmission System Operators for Electricity\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n      ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 14:14 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, DK1 → NL",
+      "summary": "Published:\n            26.03.2026 14:14:07\n        \n        \n            Publisher:\n            European Network of Transmission System Operators for Electricity\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n      ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 14:14 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, DK1 → NL",
+      "summary": "Published:\n            26.03.2026 14:14:07\n        \n        \n            Publisher:\n            European Network of Transmission System Operators for Electricity\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n      ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 14:14 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Saurdal - G4",
+      "summary": "Published:\n            26.03.2026 14:04:37\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Failed pump start. Troubleshooting. Generator a...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 14:04 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, NL → NO2",
+      "summary": "Published:\n            26.03.2026 13:44:56\n        \n        \n            Publisher:\n            European Network of Transmission System Operators for Electricity\n        \n        \n            Status:\n            Dismissed\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n   ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 13:44 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, NO2 → NL",
+      "summary": "Published:\n            26.03.2026 13:44:50\n        \n        \n            Publisher:\n            European Network of Transmission System Operators for Electricity\n        \n        \n            Status:\n            Dismissed\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n   ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 13:44 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, NL → NO2",
+      "summary": "Published:\n            26.03.2026 13:44:10\n        \n        \n            Publisher:\n            European Network of Transmission System Operators for Electricity\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n      ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 13:44 CET"
+    },
+    {
+      "title": "Volvochefen: Iran-krisen kan stärka vår strategi med elbilar",
+      "summary": "TORSLANDA. Den nya oljekrisen kan stärka Volvos strategi på elbilar. Samtidigt behövs färre högskolor och mer spets i svensk civilingenjörsutbildning. Det säger Volvochefen Håkan Samuelsson, som mitt i Trumps tullstorm har fokus på vecka 17.",
+      "source": "DN_Ekonomi",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 13:41 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Whitegate Power Station - Whitegate Power Station",
+      "summary": "Published:\n            26.03.2026 13:34:35\n        \n        \n            Publisher:\n            Bord Gais Energy Ltd\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Derating due to reoccurrence of high thrust be...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 13:34 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 1",
+      "summary": "Published:\n            26.03.2026 13:30:04\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Overhaul\n            \n                    \n          ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 13:30 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 1",
+      "summary": "Published:\n            26.03.2026 13:30:03\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Replaced by one or more separate UMMs describing the new unavailability status for this asset.\n            \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 13:30 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 3",
+      "summary": "Published:\n            26.03.2026 13:24:59\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                NOT AVAILABLE IN PUMP MODE\nAVAILABLE IN TU...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 13:24 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Whitegate Power Station - Whitegate Power Station",
+      "summary": "Published:\n            26.03.2026 13:22:47\n        \n        \n            Publisher:\n            Bord Gais Energy Ltd\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Derating due to reoccurrence of high thrust be...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 13:22 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 3",
+      "summary": "Published:\n            26.03.2026 13:21:10\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Cancellation of unavailability.\n            \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n            ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 13:21 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 1",
+      "summary": "Published:\n            26.03.2026 13:20:40\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Cancellation of unavailability.\n            \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n            ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 13:20 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Consumption, SE3, Holmen Hallsta / Paper Mill",
+      "summary": "Published:\n            26.03.2026 13:01:56\n        \n        \n            Publisher:\n            Vattenfall AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Planned maintenance.\n            \n        ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 13:01 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Saurdal - G4",
+      "summary": "Published:\n            26.03.2026 12:50:25\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Failed pump start. Troubleshooting. Generator a...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 12:50 CET"
+    },
+    {
+      "title": "Ryska skuggflottan het på toppmöte",
+      "summary": "Den ryska skuggflottan är ett hett ämne när de tio länderna i det brittiskledda försvarssamarbetet JEF möts i Helsingfors.Skuggflottan ska sättas åt hårdare, säger den brittiske premiärministern Keir Starmer när mötet inleds.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 12:33 CET"
+    },
+    {
+      "title": "Kommentar och svar om folkrätten",
+      "summary": "Med anledning av David Stavrous gästinlägg ”Israel måste alltid ha svärdet redo”, har kommentar inkommit från Johan Schaar, associerad seniorforskare på Sipri. David Stavrou svarar.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 12:20 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Saurdal - G4",
+      "summary": "Published:\n            26.03.2026 12:18:25\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Failed pump start. Pump function unavailable\n  ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 12:18 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, BE, FLEMALLE TH1",
+      "summary": "Published:\n            26.03.2026 12:12:07\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Test\n            \n                    \n              ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 12:12 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, EE, Estonian - G5",
+      "summary": "Published:\n            26.03.2026 12:07:40\n        \n        \n            Publisher:\n            Eesti Energia AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Tests\n            \n                    ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 12:07 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Southwall BESS (IS2) - Southwall BESS (IS2)",
+      "summary": "Published:\n            26.03.2026 11:53:37\n        \n        \n            Publisher:\n            ESB Trading\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Reduce availability to 15mw on both charge and discharg...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 11:53 CET"
+    },
+    {
+      "title": "Jättar förlorade – slår mot Youtube och Instagram",
+      "summary": "En färsk dom i USA mot Google och Meta slår fast att sociala medier orsakar beroende. Bedömare drar liknelser till tobaksrättegångarna där faran med cigaretter erkändes.– Jag tror att det får stor betydelse på en global skala, säger experten Rob Nicholls.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 11:52 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Whitegate Power Station - Whitegate Power Station",
+      "summary": "Published:\n            26.03.2026 11:47:33\n        \n        \n            Publisher:\n            Bord Gais Energy Ltd\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Temporary derating due to high thrust bearing ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 11:47 CET"
+    },
+    {
+      "title": "Väljer bort effektavgift: ”Fundamentalt fel”",
+      "summary": "Finland gör effektavgifterna frivilliga för nätägarna. På Åland har det lokala elbolaget valt att inte alls införa avgifterna. ”Det är något fundamentalt fel om du måste vara väldigt kunnig för att vara elkund”, säger företagets vd.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 11:39 CET"
+    },
+    {
+      "title": "Grönt ljus i EU till USA-handel",
+      "summary": "Efter många om och men säger EU-parlamentet ja till sommarens tulluppgörelse med USA.”En betydande milstolpe”, skriver USA-ambassadören Andrew Puzder i ett uttalande.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 11:28 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Dublin Waste to Energy",
+      "summary": "Published:\n            26.03.2026 11:16:10\n        \n        \n            Publisher:\n            Dublin Waste to Energy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Failure\n            \n                    \n  ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 11:16 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Whitegate Power Station - Whitegate Power Station",
+      "summary": "Published:\n            26.03.2026 11:14:16\n        \n        \n            Publisher:\n            Bord Gais Energy Ltd\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Temporary derating due to high thrust bearing ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 11:14 CET"
+    },
+    {
+      "title": "Det finns alternativ till polariseringen",
+      "summary": "Det är möjligt, åtminstone i teorin, att försöka se sina politiska motståndare som i grunden hyggliga människor som helt enkelt tycker annorlunda än man själv gör.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 11:00 CET"
+    },
+    {
+      "title": "S säger nej till ny kärnkraft längs kusten",
+      "summary": "Socialdemokraterna tänker rösta nej till regeringens planer på att ändra lagen för att öppna upp för ny kärnkraft längs de svenska kusterna. Om det blir maktskifte i höst lovar S att stoppa planerna.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 10:59 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO1, Åbjøra",
+      "summary": "Published:\n            26.03.2026 10:46:55\n        \n        \n            Publisher:\n            Skagerak Kraft AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Unplanned outage\n            \n            \n    Pr...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 10:46 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO3, Tafjord 5",
+      "summary": "Published:\n            26.03.2026 10:42:26\n        \n        \n            Publisher:\n            Tafjord Kraftproduksjon AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Failure. Duration unknown\n            \n ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 10:42 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Saurdal - G4",
+      "summary": "Published:\n            26.03.2026 10:36:57\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Failed pump start. Pump function unavailable\n  ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 10:36 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Consumption, FI, SaC",
+      "summary": "Published:\n            26.03.2026 10:35:30\n        \n        \n            Publisher:\n            Helen Oy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                boiler inspection\n            \n            \n    Consumptio...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 10:35 CET"
+    },
+    {
+      "title": "Som om manuset vore skrivet av en mytoman",
+      "summary": "Någonting skaver i Agnieszka Hollands Kafka-film. Problemet är inte att man leker med Kafkamyten – utan den oklara glidningen mellan sanning och fiktion.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 10:30 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Consumption, FI, SaC",
+      "summary": "Published:\n            26.03.2026 10:17:19\n        \n        \n            Publisher:\n            Helen Oy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                boiler inspection\n            \n            \n    Consumptio...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 10:17 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Whitegate Power Station - Whitegate Power Station",
+      "summary": "Published:\n            26.03.2026 10:16:51\n        \n        \n            Publisher:\n            Bord Gais Energy Ltd\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Temporary derating due to high thrust bearing ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 10:16 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            26.03.2026 09:51:46\n        \n        \n            Publisher:\n            Fortum Sverige AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                01.04.2026 08:00\n            \n                    \n                Event stop:\n                01.04.2026 19:00\n            \n                    \n                Areas:\n                SE2\n            \n                    \n                Unit name:\n    ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 09:51 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            26.03.2026 09:51:37\n        \n        \n            Publisher:\n            Fortum Sverige AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                26.03.2026 08:00\n            \n                    \n                Event stop:\n                26.03.2026 10:00\n            \n                    \n                Areas:\n                SE2\n            \n                    \n                Unit name:\n    ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 09:51 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Whitegate Power Station - Whitegate Power Station",
+      "summary": "Published:\n            26.03.2026 09:48:36\n        \n        \n            Publisher:\n            Bord Gais Energy Ltd\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Temporary derating due to high thrust bearing ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 09:48 CET"
+    },
+    {
+      "title": "Källa: Iran har svarat på USA:s fredsförslag",
+      "summary": "Iran har kommit med ett svar på USA:s 15-punktsplan, uppger en källa för statsstyrda Tasnim.Pakistan säger sig agera mellanhand i kontakterna.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 09:40 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, PL → LT, LT → PL",
+      "summary": "Published:\n            26.03.2026 09:33:48\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Trading capacity calculated according to Capa...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 09:33 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, PL → LT, LT → PL",
+      "summary": "Published:\n            26.03.2026 09:32:24\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Capacity calculated based on principles defin...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 09:32 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, LT → LV, LV → LT",
+      "summary": "Published:\n            26.03.2026 09:31:47\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Trading capacity calculated based on principl...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 09:31 CET"
+    },
+    {
+      "title": "Vaniljyoghurten ger ”lyxig vardagskänsla”",
+      "summary": "Panelen har testat vaniljyoghurt och hittat två fullpoängare.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 09:19 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO1, Åbjøra",
+      "summary": "Published:\n            26.03.2026 09:15:01\n        \n        \n            Publisher:\n            Skagerak Kraft AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Unplanned outage\n            \n            \n    Pr...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 09:15 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Whitegate Power Station - Whitegate Power Station",
+      "summary": "Published:\n            26.03.2026 09:12:54\n        \n        \n            Publisher:\n            Bord Gais Energy Ltd\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Temporarily derating - high thrust bearing tem...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 09:12 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Saurdal - G2",
+      "summary": "Published:\n            26.03.2026 09:07:13\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Not ready to start. Failure on the transmission...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 09:07 CET"
+    },
+    {
+      "title": "Han blev miljardär på AI innan 30: ”Rädd för att dö utan att ha gjort något meningsfullt”",
+      "summary": "29-åriga Joel Hellermark är en av AI-revolutionens tidiga vinnare. I fjol sålde han sitt bolag till en amerikansk mjukvarujätte och blev miljardär. Och han har framhållit 60-timmars arbetsveckor som ett ideal. Hur mycket kommer han själv att jobba nu?",
+      "source": "DN_Ekonomi",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 09:02 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 3",
+      "summary": "Published:\n            26.03.2026 08:58:21\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                NOT AVAILABLE IN PUMP MODE\nAVAILABLE IN TU...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 08:58 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 3",
+      "summary": "Published:\n            26.03.2026 08:58:20\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Replaced by one or more separate UMMs describing the new unavailability status for this asset.\n            \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 08:58 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 3",
+      "summary": "Published:\n            26.03.2026 08:57:57\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                NOT AVAILABLE IN PUMP MODE\nAVAILABLE IN TU...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 08:57 CET"
+    },
+    {
+      "title": "Tar tunnelbana – och Snape har dreads",
+      "summary": "Harry Potter går i vanlig mugglarskola innan Hogwarts, tar tunnelbana med Hagrid – och professor Snape har dreadlocks. I trailern för Harry Potter-serien syns flera nya tolkningar.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 08:48 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, FI, Keljonlahti",
+      "summary": "Published:\n            26.03.2026 08:46:22\n        \n        \n            Publisher:\n            Gasum Oy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Annual maintenance.\n            \n              ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 08:46 CET"
+    },
+    {
+      "title": "Svensk VM-biljett – då gräver Svenska Spel guld",
+      "summary": "I kväll avgörs det för fotbollslandslaget: ett steg närmare VM eller ett definitivt slut på drömmen.För Svenska Spel kan en blågul VM-biljett betyda ett rejält intäktslyft men även utan Sverige räknar spelbolaget med försäljningsökning.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 08:21 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            26.03.2026 08:11:15\n        \n        \n            Publisher:\n            Fortum Power and Heat Oy\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                10.11.2025 08:00\n            \n                    \n                Event stop:\n                13.04.2026 11:00\n            \n                    \n                Areas:\n                FI\n            \n                    \n                Unit name...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 08:11 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, DK2, Roedsand 2",
+      "summary": "Published:\n            26.03.2026 08:10:35\n        \n        \n            Publisher:\n            Energinet\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Due to possible overloads of the grid in the s...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-26 08:10 CET"
+    },
+    {
+      "title": "H&amp;M: Respekt för att kunder har begränsad plånbok",
+      "summary": "Klädjätten H&amp;M står opåverkad av kriget i Mellanöstern – i alla fall i nuläget. Vd:n Daniel Ervér ser dock fortsatt försiktiga konsumenter.– Vi har stor respekt för att våra kunder har en begränsad plånbok, säger han till TT.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 08:03 CET"
+    },
+    {
+      "title": "Koncept för kapacitetsåtgärd avslutas – lärdomar ger viktig grund för framtiden",
+      "summary": "Svenska kraftnät och Vattenfall Eldistribution avslutar nu den gemensamma piloten om att etablera konceptet kapacitetsåtgärd för tidigare anslutningar i Västra Götaland. Detta eftersom behovet av tidigare anslutningar inte längre finns i regionen.",
+      "source": "SVK_Drift",
+      "category": "GRID_OPERATIONS",
+      "published_at_cet": "2026-03-26 08:01 CET"
+    },
+    {
+      "title": "Utredning av mFRR-priser 16-22 mars 2026",
+      "summary": "Svenska kraftnät genomför löpande analyser för att manuellt hitta tillfällen där mFRR-priset ska justeras i linje med det arbete som bedrivs för att förbättra marknadens funktion och skapa en mer stabil prisbild.",
+      "source": "SVK_Drift",
+      "category": "GRID_OPERATIONS",
+      "published_at_cet": "2026-03-26 08:01 CET"
+    },
+    {
+      "title": "Utredning av mFRR-priser 16-22 mars 2026",
+      "summary": "Svenska kraftnät genomför löpande analyser för att manuellt hitta tillfällen där mFRR-priset ska justeras i linje med det arbete som bedrivs för att förbättra marknadens funktion och skapa en mer stabil prisbild.",
+      "source": "SVK_Balansansvar",
+      "category": "GRID_BALANCING",
+      "published_at_cet": "2026-03-26 08:01 CET"
+    },
+    {
+      "title": "Matmomsen sänks – så gör din butik",
+      "summary": "Regeringen halverar matmomsen från den 1 april, lagom till påskens stora matinköp. Nu ger livsmedelskedjorna besked om hur de sänker priserna – och hur de planerar att låta sig granskas.",
+      "source": "DN_Ekonomi",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 06:09 CET"
+    },
+    {
+      "title": "Matmomsen sänks – så gör din butik",
+      "summary": "Regeringen halverar matmomsen från den 1 april, lagom till påskens stora matinköp. Nu ger livsmedelskedjorna besked om hur de sänker priserna – och hur de planerar att låta sig granskas.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 06:00 CET"
+    },
+    {
+      "title": "Kan en maoist lika gärna bli AIK:are?",
+      "summary": "Hur blir man bokstavstroende rebell? Det utforskar Lukas Moodysson i sin nya roman. Houssin Vennberg Sninate läser ”Rebellerna” och tycker att prosan har lite för hög fart.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 06:00 CET"
+    },
+    {
+      "title": "Anfall vid Israels ”hemliga” kärnbas",
+      "summary": "Iranska robotar slog häromdagen ned nära en av Israels mest skyddade platser – där det finns en illa dold och potentiellt förödande hemlighet.När kärnanläggningar blir måltavlor i kriget höjs insatserna skarpt.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 05:45 CET"
+    },
+    {
+      "title": "Kaos i politikerns bolag: ”Inte lagligt”",
+      "summary": "Konflikt med myndigheter och kaos i styrelsen – kryptobolaget Valuno rasar på börsen. En av dem som lämnat är vd Daniel Sonesson, som även är partiledare för Medborgerlig samling. ”Bolaget har enorma problem”, säger han.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 05:37 CET"
+    },
+    {
+      "title": "Zelenskyj: USA villkorar säkerhetsgarantier",
+      "summary": "USA villkorar sina säkerhetsgarantier för Ukraina vid ett fredsavtal med att landet ger upp Donbassregionen i östra Ukraina, uppger Ukrainas president Volodymyr Zelenskyj i en intervju med Reuters.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 03:09 CET"
+    },
+    {
+      "title": "Får man vara så brutalt elak mot sin stjärna?",
+      "summary": "”The comeback” tillbaka med en sista säsong och revansch för Harry Hole på Netflix. SvD Kultur guidar till de bästa nyheterna på svenska streaming­tjänster.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 00:51 CET"
+    },
+    {
+      "title": "Nya robotsalvor från Iran efter Israels attackvåg",
+      "summary": "Två personer har dödats i ett iranskt robotanfall mot Förenade arabemiraten.Iranska robotar avfyras i mängder även mot Israel.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-26 00:21 CET"
+    },
+    {
+      "title": "Socialt utmattad? Testa detta!",
+      "summary": "Nog är vi alla bekanta med känslan: alla tycks befinna sig på en middag, en fest, en resa – utom jag. Slutsatsen som hjärnan drar är skoningslös: det är något fel på mig. Så man gör sig mer social och plötsligt befinner vi oss i en ond cirkel. Men här är lösningen.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 22:01 CET"
+    },
+    {
+      "title": "Den större dimensionen fick inte plats i boken",
+      "summary": "Simon Campanello gör sitt bästa för att dramatisera och nysta upp härvan kring journalsystemet Millennium. Gunilla Kindblom läser ”Millennium­skandalen”, men saknar den större dimension som inte fick plats i boken.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 22:00 CET"
+    },
+    {
+      "title": "Allierade i Europa sågar Trumps krav: ”Absurt”",
+      "summary": "USA:s president Donald Trump har krävt att Europa hjälper honom öppna Hormuzsundet för att få oljan att flöda igen. Men någon formell begäran om hjälp har inte kommit, uppger flera EU-länder. ”Det är absurt osammanhängande,” säger en företrädare.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 21:58 CET"
+    },
+    {
+      "title": "Oro för USA-samarbete: ”Otroligt märkligt”",
+      "summary": "Sverige gick med i amerikanska samarbetet Pax Silica utan bred debatt eller EU-beslut. Nu varnar kritiker för ökat beroende av USA  – och kräver svar från regeringen. ”Hur går det här ihop?”",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 21:57 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 19:50:06\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                25.03.2026 19:30\n            \n                    \n                Event stop:\n                25.03.2026 23:00\n            \n                    \n                Areas:\n                NL\n            \n                    \n                Unit name:\n         ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 19:50 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 19:07:55\n        \n        \n            Publisher:\n            &#216;rsted Bioenergy &amp; Thermal Power A/S\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                25.03.2026 18:46\n            \n                    \n                Event stop:\n                25.03.2026 20:20\n            \n                    \n                Areas:\n                DK1\n            \n                    \n   ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 19:07 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, DK1, Studstrupværket - SSV3",
+      "summary": "Published:\n            25.03.2026 19:07:10\n        \n        \n            Publisher:\n            &#216;rsted Bioenergy &amp; Thermal Power A/S\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Limited due to failur...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 19:07 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Southwall BESS (IS2) - Southwall BESS (IS2)",
+      "summary": "Published:\n            25.03.2026 19:05:51\n        \n        \n            Publisher:\n            ESB Trading\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Reduce availability to 15mw on both charge and discharg...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 19:05 CET"
+    },
+    {
+      "title": "Oljepriset ger Putin andrum – men Rysslands ekonomi pressas",
+      "summary": "Trots stigande oljepriser för Kreml fortsätter Rysslands ekonomi att pressas av fallande intäkter, bankrisker och ett krig som slukar allt större resurser. – Långsiktigt blir ekonomin värre. Det är som ett gift i kroppen. Det dödar dig inte med en gång, men det gör dig svagare och svagare, säger analytikern Erlend Bjørtvedt.",
+      "source": "DN_Ekonomi",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 18:42 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Suldal 2 - Suldal 2 G4",
+      "summary": "Published:\n            25.03.2026 18:04:37\n        \n        \n            Publisher:\n            Lyse Produksjon AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n    Production Units\n            \n                \n                    Unit Name\n                    Unit EIC\n ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 18:04 CET"
+    },
+    {
+      "title": "Oron i världen får svenskar att styra om resor",
+      "summary": "Den globala oron märks av i resebranschen. Flera arrangörer ser ett minskat intresse för Cypern. – Jag ska inte sticka under stol med att det har påverkan på oss, säger Vings kommunikationschef Claes Pellvik.",
+      "source": "DN_Ekonomi",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 17:55 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Novle - Novle G1",
+      "summary": "Published:\n            25.03.2026 17:45:52\n        \n        \n            Publisher:\n            Lyse Produksjon AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n    Production Units\n            \n                \n                    Unit Name\n                    Unit EIC\n ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 17:45 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, NO2, Brokke",
+      "summary": "Published:\n            25.03.2026 17:41:17\n        \n        \n            Publisher:\n            &#197; ENERGI VANNKRAFT AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Inspection of water tunnels\n ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 17:41 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 17:13:31\n        \n        \n            Publisher:\n            Ingrid Capacity AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                24.02.2026 00:00\n            \n                    \n                Event stop:\n                31.03.2026 00:00\n            \n                    \n                Areas:\n                SE3, SE4\n            \n                \n            Remarks:\n        ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 17:13 CET"
+    },
+    {
+      "title": "ENTSO-E's Response to European Commission’s Clean Energy Investment Strategy",
+      "summary": "ENTSO-E welcomes the European Commission’s Clean Energy Investment Strategy published this month and its focus on ensuring investments in grids increase, alongside clean generation, as they are essential for the transition.   Europe will need over €800 billion in transmission grid investments over the next 20 years. Therefore, delaying these investments will increase long-term costs and risks.  ENTSO-E supports measures such as hybrid bonds and the Operator Securitisation Facility to strengthen ...",
+      "source": "ENTSOE_News",
+      "category": "EUROPEAN_GRID",
+      "published_at_cet": "2026-03-25 17:07 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Moneypoint - GU_400271 (MP2)",
+      "summary": "Published:\n            25.03.2026 16:28:36\n        \n        \n            Publisher:\n            ESB Trading\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                H2 Leak Repair\n            \n                    \n      ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 16:28 CET"
+    },
+    {
+      "title": "Säkerhetsmeddelande: Haveri i porslinsstödisolator under frånskiljare av typ NSYB 200/1200",
+      "summary": "Ett säkerhetsmeddelande gällande ett haveri i en porslinsstödisolator under en frånskiljare av typ NSYB 200/1200 har upprättats.",
+      "source": "SVK_Drift",
+      "category": "GRID_OPERATIONS",
+      "published_at_cet": "2026-03-25 16:16 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, VILVOORDE 1",
+      "summary": "Published:\n            25.03.2026 16:12:03\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Overhaul\n            \n                    ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 16:12 CET"
+    },
+    {
+      "title": "Nu är ansökan om nätkoncession för Skogssäter–Lunna och Lunna–Ingelkärr inskickad",
+      "summary": "Svenska kraftnät har nu färdigställt koncessionsansökan för delsträckorna Skogssäter-Lunna och Lunna-Ingelkärr och skickat in dessa till Energimarknadsinspektionen (Ei).",
+      "source": "SVK_Kontrollrummet",
+      "category": "GRID_OPERATIONS",
+      "published_at_cet": "2026-03-25 15:43 CET"
+    },
+    {
+      "title": "Nu är ansökan om nätkoncession för Skogssäter–Lunna och Lunna–Ingelkärr inskickad",
+      "summary": "Svenska kraftnät har nu färdigställt koncessionsansökan för delsträckorna Skogssäter-Lunna och Lunna-Ingelkärr och skickat in dessa till Energimarknadsinspektionen (Ei).",
+      "source": "SVK_Balansansvar",
+      "category": "GRID_BALANCING",
+      "published_at_cet": "2026-03-25 15:43 CET"
+    },
+    {
+      "title": "Nu är ansökan om nätkoncession för Skogssäter–Lunna och Lunna–Ingelkärr inskickad",
+      "summary": "Svenska kraftnät har nu färdigställt koncessionsansökan för delsträckorna Skogssäter-Lunna och Lunna-Ingelkärr och skickat in dessa till Energimarknadsinspektionen (Ei).",
+      "source": "SVK_Elomraden",
+      "category": "BIDDING_ZONES",
+      "published_at_cet": "2026-03-25 15:43 CET"
+    },
+    {
+      "title": "Nu är ansökan om nätkoncession för Skogssäter–Lunna och Lunna–Ingelkärr inskickad",
+      "summary": "Svenska kraftnät har nu färdigställt koncessionsansökan för delsträckorna Skogssäter-Lunna och Lunna-Ingelkärr och skickat in dessa till Energimarknadsinspektionen (Ei).",
+      "source": "SVK_FCR",
+      "category": "ANCILLARY_FCR",
+      "published_at_cet": "2026-03-25 15:43 CET"
+    },
+    {
+      "title": "Nu är ansökan om nätkoncession för Skogssäter–Lunna och Lunna–Ingelkärr inskickad",
+      "summary": "Svenska kraftnät har nu färdigställt koncessionsansökan för delsträckorna Skogssäter-Lunna och Lunna-Ingelkärr och skickat in dessa till Energimarknadsinspektionen (Ei).",
+      "source": "SVK_mFRR",
+      "category": "ANCILLARY_MFRR",
+      "published_at_cet": "2026-03-25 15:43 CET"
+    },
+    {
+      "title": "Nu är ansökan om nätkoncession för Skogssäter–Lunna och Lunna–Ingelkärr inskickad",
+      "summary": "Svenska kraftnät har nu färdigställt koncessionsansökan för delsträckorna Skogssäter-Lunna och Lunna-Ingelkärr och skickat in dessa till Energimarknadsinspektionen (Ei).",
+      "source": "SVK_aFRR",
+      "category": "ANCILLARY_AFRR",
+      "published_at_cet": "2026-03-25 15:43 CET"
+    },
+    {
+      "title": "Nu är ansökan om nätkoncession för Skogssäter–Lunna och Lunna–Ingelkärr inskickad",
+      "summary": "Svenska kraftnät har nu färdigställt koncessionsansökan för delsträckorna Skogssäter-Lunna och Lunna-Ingelkärr och skickat in dessa till Energimarknadsinspektionen (Ei).",
+      "source": "SVK_Drift",
+      "category": "GRID_OPERATIONS",
+      "published_at_cet": "2026-03-25 15:43 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, FI, Lestijärven tuulipuisto",
+      "summary": "Published:\n            25.03.2026 15:11:10\n        \n        \n            Publisher:\n            EPV Tase Oy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Turbine outages and maintenance activities. Because of ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 15:11 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 3",
+      "summary": "Published:\n            25.03.2026 14:55:49\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                NOT AVAILABLE IN PUMP MODE\nAVAILABLE IN TU...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 14:55 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, FI, Toppila - B2",
+      "summary": "Published:\n            25.03.2026 14:49:54\n        \n        \n            Publisher:\n            PD Power Oy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Annual maintenance\n            \n            ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 14:49 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, NO2 → DK1, DK1 → NO2",
+      "summary": "Published:\n            25.03.2026 14:44:57\n        \n        \n            Publisher:\n            Statnett SF\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Increasing gas leakage, fault investigation necessary.\n  ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 14:44 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, Vilvoorde BESS 2",
+      "summary": "Published:\n            25.03.2026 14:34:41\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Unit in charging mode with the indicated v...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 14:34 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, Vilvoorde BESS 2",
+      "summary": "Published:\n            25.03.2026 14:33:55\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Unit in discharging mode with the indicate...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 14:33 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, Vilvoorde BESS 2",
+      "summary": "Published:\n            25.03.2026 14:33:25\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Unit in charging mode with the indicated v...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 14:33 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, Vilvoorde BESS 2",
+      "summary": "Published:\n            25.03.2026 14:32:35\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Unit in discharging mode with the indicate...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 14:32 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, Vilvoorde BESS 2",
+      "summary": "Published:\n            25.03.2026 14:30:43\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Cancellation of unavailability. This UMM contains multiple capacity values to reflect a situation of RampUp, RampDown or TestProfile;  please click on the UMM for more details.\n            \n                    \n                Type of Unavailability:\n    ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 14:30 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, Vilvoorde BESS 2",
+      "summary": "Published:\n            25.03.2026 14:30:42\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Cancellation of unavailability. This UMM contains multiple capacity values to reflect a situation of RampUp, RampDown or TestProfile;  please click on the UMM for more details.\n            \n                    \n                Type of Unavailability:\n    ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 14:30 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, Vilvoorde BESS 2",
+      "summary": "Published:\n            25.03.2026 14:30:41\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Cancellation of unavailability. This UMM contains multiple capacity values to reflect a situation of RampUp, RampDown or TestProfile;  please click on the UMM for more details.\n            \n                    \n                Type of Unavailability:\n    ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 14:30 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, Vilvoorde BESS 2",
+      "summary": "Published:\n            25.03.2026 14:30:33\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Cancellation of unavailability. This UMM contains multiple capacity values to reflect a situation of RampUp, RampDown or TestProfile;  please click on the UMM for more details.\n            \n                    \n                Type of Unavailability:\n    ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 14:30 CET"
+    },
+    {
+      "title": "Kommande förändringar för budgivning på de nordiska aFRR- och mFRR-kapacitetsmarknaderna",
+      "summary": "De nordiska kapacitetsmarknaderna för reserver möjliggör en kostnadseffektiv anskaffning av reservkapacitet i alla elområden dagen för leverans. Kapacitetsmarknaderna är ett komplement till energiaktiveringsmarknaden där bud aktiveras utifrån aktuellt behov i realtid. Marknaderna har funnits i ett antal år och vidareutveckling sker stegvis för att förbättra effektiviteten. Under hösten 2026 planeras nu en förändring gällande budgivning.",
+      "source": "SVK_Drift",
+      "category": "GRID_OPERATIONS",
+      "published_at_cet": "2026-03-25 14:01 CET"
+    },
+    {
+      "title": "Kommande förändringar för budgivning på de nordiska aFRR- och mFRR-kapacitetsmarknaderna",
+      "summary": "De nordiska kapacitetsmarknaderna för reserver möjliggör en kostnadseffektiv anskaffning av reservkapacitet i alla elområden dagen för leverans. Kapacitetsmarknaderna är ett komplement till energiaktiveringsmarknaden där bud aktiveras utifrån aktuellt behov i realtid. Marknaderna har funnits i ett antal år och vidareutveckling sker stegvis för att förbättra effektiviteten. Under hösten 2026 planeras nu en förändring gällande budgivning.",
+      "source": "SVK_Balansansvar",
+      "category": "GRID_BALANCING",
+      "published_at_cet": "2026-03-25 14:01 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, SE1, Porjus - G12",
+      "summary": "Published:\n            25.03.2026 14:00:53\n        \n        \n            Publisher:\n            Vattenfall AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Failure.\n            \n            \n    Production Uni...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 14:00 CET"
+    },
+    {
+      "title": "Flödesbaserad kapacitetsberäkning för en månad före införs den 8 april",
+      "summary": "Införandet av långsiktig kapacitetsberäkning för tidsperspektivet månaden före, kommer att genomföras den 8 april. Data publiceras på NRCC:s webbplats.",
+      "source": "SVK_Drift",
+      "category": "GRID_OPERATIONS",
+      "published_at_cet": "2026-03-25 13:40 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 13:14:41\n        \n        \n            Publisher:\n            Statnett SF\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                25.03.2026 07:00\n            \n                    \n                Event stop:\n                25.03.2026 13:00\n            \n                    \n                Areas:\n                NO2\n            \n                \n            Remarks:\n            Producti...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 13:14 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 13:07:02\n        \n        \n            Publisher:\n            Hafslund  Kraft  Innlandet AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                20.02.2026 12:00\n            \n                    \n                Event stop:\n                07.04.2026 08:00\n            \n                    \n                Areas:\n                NO1\n            \n                    \n                Uni...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 13:07 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 12:47:26\n        \n        \n            Publisher:\n            &#216;rsted Bioenergy &amp; Thermal Power A/S\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                25.03.2026 07:00\n            \n                    \n                Event stop:\n                25.03.2026 12:50\n            \n                    \n                Areas:\n                DK1\n            \n                    \n   ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 12:47 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Transmission, NO5 → NO3, NO5 → NO1, NO3 → NO5",
+      "summary": "Published:\n            25.03.2026 12:26:30\n        \n        \n            Publisher:\n            Statnett SF\n        \n        \n            Status:\n            Dismissed\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                unforeseen outage\n            \n                    \n...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 12:26 CET"
+    },
+    {
+      "title": "Upphandling av automatisk frekvensåterställningsreserv (aFRR) för Q2 2026",
+      "summary": "Upphandlingsvolymerna för både aFRR Ned och aFRR Upp kommer att vara oförändrade för Q2 2026 under alla timmar.",
+      "source": "SVK_Balansansvar",
+      "category": "GRID_BALANCING",
+      "published_at_cet": "2026-03-25 12:01 CET"
+    },
+    {
+      "title": "Upphandling av automatisk frekvensåterställningsreserv (aFRR) för Q2 2026",
+      "summary": "Upphandlingsvolymerna för både aFRR Ned och aFRR Upp kommer att vara oförändrade för Q2 2026 under alla timmar.",
+      "source": "SVK_Drift",
+      "category": "GRID_OPERATIONS",
+      "published_at_cet": "2026-03-25 12:01 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Consumption, NO3, Norske Skog Skogn / Unit",
+      "summary": "Published:\n            25.03.2026 11:47:08\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Maintenance\n            \n                    \n ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 11:47 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Transmission, PL → SE4",
+      "summary": "Published:\n            25.03.2026 11:31:49\n        \n        \n            Publisher:\n            European Network of Transmission System Operators for Electricity\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                F...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 11:31 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Transmission, SE4 → PL",
+      "summary": "Published:\n            25.03.2026 11:30:01\n        \n        \n            Publisher:\n            European Network of Transmission System Operators for Electricity\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                F...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 11:30 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Saurdal - G4",
+      "summary": "Published:\n            25.03.2026 11:13:43\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Pump failed to start.\n            \n            ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 11:13 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Dublin Waste to Energy",
+      "summary": "Published:\n            25.03.2026 11:06:05\n        \n        \n            Publisher:\n            Dublin Waste to Energy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Failure\n            \n                    \n  ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 11:06 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Dublin Waste to Energy",
+      "summary": "Published:\n            25.03.2026 10:47:04\n        \n        \n            Publisher:\n            Dublin Waste to Energy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Failure\n            \n                    \n  ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 10:47 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO5, Matre H",
+      "summary": "Published:\n            25.03.2026 10:38:26\n        \n        \n            Publisher:\n            Eviny Fornybar AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Leakage on Generator 1, and testing on generator ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 10:38 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, EE, Estonian - G5",
+      "summary": "Published:\n            25.03.2026 10:26:23\n        \n        \n            Publisher:\n            Eesti Energia AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Tests\n            \n            \n    Pro...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 10:26 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, SE4, Öresundsverket, Malmö",
+      "summary": "Published:\n            25.03.2026 10:21:26\n        \n        \n            Publisher:\n            Sydkraft Thermal Power AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                we need to repair a filter on the cooling...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 10:21 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, NO5, Aurland 3 - G1",
+      "summary": "Published:\n            25.03.2026 10:01:14\n        \n        \n            Publisher:\n            Hafslund Kraft AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Failure that needs to be fixed. \n            \n     ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 10:01 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Consumption, NO3, Norske Skog Skogn / Unit",
+      "summary": "Published:\n            25.03.2026 09:58:58\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Maintenance\n            \n            \n    Consu...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 09:58 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, FI, Toppila - B2",
+      "summary": "Published:\n            25.03.2026 09:54:04\n        \n        \n            Publisher:\n            PD Power Oy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Annual maintenance\n            \n            ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 09:54 CET"
+    },
+    {
+      "title": "Norge och Kanada vinnare på energikrisen – ökar oljeproduktionen",
+      "summary": "Bristen på olja och gas på grund av Irans blockering av Hormuz-sundet sätter fokus på frågan om energisäkerhet i världen. Norge och Kanada ser möjligheten att öka sin egen produktion av olja från en säker del av världen. – Det är Kanadas tid nu, säger Kanadas energiminister Tim Hodgson till Financial Times.",
+      "source": "DN_Ekonomi",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 09:52 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 09:44:23\n        \n        \n            Publisher:\n            &#216;rsted Bioenergy &amp; Thermal Power A/S\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                25.03.2026 07:00\n            \n                    \n                Event stop:\n                25.03.2026 15:30\n            \n                    \n                Areas:\n                DK1\n            \n                    \n   ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 09:44 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 09:27:55\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                24.03.2026 00:00\n            \n                    \n                Event stop:\n                30.03.2026 17:00\n            \n                    \n                Areas:\n                BE\n            \n                \n            Remarks:\n            Due to ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 09:27 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 09:27:06\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                24.03.2026 00:00\n            \n                    \n                Event stop:\n                30.03.2026 17:00\n            \n                    \n                Areas:\n                BE\n            \n                \n            Remarks:\n            Due to ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 09:27 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 456 - COO 5",
+      "summary": "Published:\n            25.03.2026 09:16:45\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Overhaul\n            \n                    ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 09:16 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 3",
+      "summary": "Published:\n            25.03.2026 09:16:28\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Overhaul\n            \n                    ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 09:16 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 3",
+      "summary": "Published:\n            25.03.2026 09:16:27\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                NOT AVAILABLE IN PUMP MODE\nAVAILABLE IN TU...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 09:16 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 456 - COO 4",
+      "summary": "Published:\n            25.03.2026 09:15:27\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Overhaul\n            \n                    ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 09:15 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 456 - COO 6",
+      "summary": "Published:\n            25.03.2026 09:15:12\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Overhaul\n            \n                    ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 09:15 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, LT → LV, LV → LT",
+      "summary": "Published:\n            25.03.2026 09:14:48\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Trading capacity calculated based on principl...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 09:14 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Saurdal - G4",
+      "summary": "Published:\n            25.03.2026 09:14:02\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Pump failed to start.\n            \n            ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 09:14 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, PL → LT, LT → PL",
+      "summary": "Published:\n            25.03.2026 09:13:17\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Trading capacity calculated according to Capa...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 09:13 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, PL → LT, LT → PL",
+      "summary": "Published:\n            25.03.2026 09:13:13\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Capacity calculated based on principles defin...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 09:13 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, SE2, Blackfjället",
+      "summary": "Published:\n            25.03.2026 08:37:32\n        \n        \n            Publisher:\n            RES Renewable Norden AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Substation trip\n            \n              ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 08:37 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO4, Skjomen - G1",
+      "summary": "Published:\n            25.03.2026 08:35:27\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Issues with control system\n            \n       ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 08:35 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Transmission, NO5 → NO1, NO5 → NO3, NO3 → NO5",
+      "summary": "Published:\n            25.03.2026 08:14:08\n        \n        \n            Publisher:\n            Statnett SF\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                unforeseen outage\n            \n                    \n   ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 08:14 CET"
+    },
+    {
+      "title": "Stockholmsbörsen mot grön öppning",
+      "summary": "Stockholmsbörsen går mot en öppning på plus, enligt terminshandeln på IG Markets.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 08:07 CET"
+    },
+    {
+      "title": "Elstödet: Så mycket får du och då kommer pengarna",
+      "summary": "Hur mycket kan jag få i elstöd, vad krävs och framför allt – när kommer ersättningen?Här är de viktigaste frågorna och svaren kring det nya elstödet som regeringen och SD gav besked om på måndagen.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 08:05 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, EE → LV, LV → EE",
+      "summary": "Published:\n            25.03.2026 07:30:52\n        \n        \n            Publisher:\n            Elering AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Trading capacity calculated based on principa...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 07:30 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, SE1, Letsi - G3",
+      "summary": "Published:\n            25.03.2026 07:20:35\n        \n        \n            Publisher:\n            Vattenfall AB\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Job cancelled\n            \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n         ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 07:20 CET"
+    },
+    {
+      "title": "Danmarks slugaste – valets vinnare",
+      "summary": "Valet är över och de danska regeringsförhandlingarna ser ut att bli riktigt besvärliga. Mette Frederiksen får testa lyckan först. Nu kan nästan vad som helst hända.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 06:09 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, NO2, Holen - G2",
+      "summary": "Published:\n            25.03.2026 06:08:02\n        \n        \n            Publisher:\n            &#197; ENERGI VANNKRAFT AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Maintenance turbine regulator...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 06:08 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, NO2, Holen - G1",
+      "summary": "Published:\n            25.03.2026 06:06:02\n        \n        \n            Publisher:\n            &#197; ENERGI VANNKRAFT AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Maintenance turbine regulator...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 06:06 CET"
+    },
+    {
+      "title": "Gång- och cykelpendling kan ge friskare hjärta",
+      "summary": "Små aktiviteter kan göra stor skillnad. Den som går eller cyklar till jobbet löper mindre risk för åderförkalkning i hjärtat, visar ny forskning.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 06:05 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, SE2, Kilforsen",
+      "summary": "Published:\n            25.03.2026 06:02:14\n        \n        \n            Publisher:\n            Vattenfall AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Failure\n            \n            \n    Production Unit...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 06:02 CET"
+    },
+    {
+      "title": "Skrällen: Efter SD-sväng – L tar sig över spärren",
+      "summary": "Liberalerna har tvärvänt om SD – och det ger nu utdelning i opinionen. Det sedan länge krisande partiet klättrar över spärren till 4,5 procent. ”Extremt ovanlig situation”, säger opinions­chefen.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 06:00 CET"
+    },
+    {
+      "title": "Krigspremie på boräntan – rader av höjningar",
+      "summary": "Nordea, SBAB, Swedbank, Danske Bank – rader av stora bolåneaktörer – har de gångna dagarna höjt bundna boräntor.Experter beskriver det som en följd av den krigspremie som banker får betala på sina bostadsobligationer efter USA:s och Israels attack mot Iran den 28 februari.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 06:00 CET"
+    },
+    {
+      "title": "Afroman är hjälten vår tid behöver",
+      "summary": "Artisten Afromans hämnd mot poliserna som demolerade hans hem är inte bara ljuv musik för vänner av rättvisa. Det är också en påminnelse om värdet av yttrandefrihet.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 06:00 CET"
+    },
+    {
+      "title": "Iran: USA förhandlar vapenvila med sig självt",
+      "summary": "Iran slår ifrån sig uppgifter om att de skulle vara i förhandling med USA. Utspelet kommer sedan källor uppgett att Iran mottagit USA:s 15-punktsplan för vapenvila.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 05:59 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, DK2, Roedsand 2",
+      "summary": "Published:\n            25.03.2026 05:54:50\n        \n        \n            Publisher:\n            Energinet\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Due to possible overloads of the grid in the s...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 05:54 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 04:50:53\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                25.03.2026 06:00\n            \n                    \n                Event stop:\n                29.03.2026 07:00\n            \n                    \n                Areas:\n                DE-TenneT\n            \n                    \n                Unit name:\n  ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 04:50 CET"
+    },
+    {
+      "title": "Oljepriset tillbaka över 100 dollar per fat",
+      "summary": "Råoljepriset vänder upp över 100 dollar per fat igen efter att tillfälligt ha varit nere på 97 dollar per fat under nattens handel.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 02:05 CET"
+    },
+    {
+      "title": "Libanon: Flera dödade i israeliska attacker",
+      "summary": "Minst nio personer har dödats i israeliska attacker mot Libanon, uppger landets hälsodepartement under natten mot onsdagen.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 01:41 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, NL, EEMS 4",
+      "summary": "Published:\n            25.03.2026 01:21:30\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n                Reason Code:\n                Foreseen maintenance\n            \n                    \n                Reason for the Unavailability:\n                Overhaul\n            \n                    ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 01:21 CET"
+    },
+    {
+      "title": "Iran: USA förhandlar med sig själva",
+      "summary": "Iran slår åter igen ifrån sig uppgifter om att de skulle vara i förhandling med USA. Utspelet kommer sedan källor uppgett för AP att Iran mottagit USA:s 15-punktsplan för vapenvila.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 01:17 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Saurdal - G4",
+      "summary": "Published:\n            25.03.2026 01:00:07\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n                Reason Code:\n                Failure\n            \n                    \n                Reason for the Unavailability:\n                Pump failed to start.\n            \n            ...",
+      "source": "NordPool_UMM",
+      "category": "MARKET_ANNOUNCEMENT",
+      "published_at_cet": "2026-03-25 01:00 CET"
+    },
+    {
+      "title": "Frederiksen: ”Självklart är jag besviken”",
+      "summary": "Mette Frederiksens parti Socialdemokratiet gör ett historiskt dåligt val. Men är fortsatt störst i Danmark – och Frederiksen vill fortsätta leda landet.– Jag är redo att ta mig an ansvaret som Danmarks statsminister de kommande fyra åren, säger hon till jubel på partiets valvaka i Köpenhamn.",
+      "source": "SvD_Naringsliv",
+      "category": "GENERAL_NEWS",
+      "published_at_cet": "2026-03-25 00:22 CET"
+    }
+  ],
+  "grid_events": [
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            26.03.2026 16:06:40\n        \n        \n            Publisher:\n            Vattenfall AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                26.03.2026 15:59\n            \n                    \n       ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 16:06 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, LT → LV, LV → LT",
+      "summary": "Published:\n            26.03.2026 15:46:09\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n        ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 15:46 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, LT → LV, LV → LT",
+      "summary": "Published:\n            26.03.2026 15:45:53\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n        ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 15:45 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, LT → LV, LV → LT",
+      "summary": "Published:\n            26.03.2026 15:38:13\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n        ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 15:38 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, SE2, Blackfjället",
+      "summary": "Published:\n            26.03.2026 15:26:01\n        \n        \n            Publisher:\n            RES Renewable Norden AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n              ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 15:26 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, NL, Windpark Drentse Monden Oostermoer",
+      "summary": "Published:\n            26.03.2026 15:00:13\n        \n        \n            Publisher:\n            Ventolines B.V.\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n   ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 15:00 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Consumption, NO3, Norske Skog Skogn / Unit",
+      "summary": "Published:\n            26.03.2026 14:50:00\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                  ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 14:50 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, NO2 → NL",
+      "summary": "Published:\n            26.03.2026 14:14:22\n        \n        \n            Publisher:\n            European Network of Transmission System Operators for Electricity\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n           ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 14:14 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, DK1 → NL",
+      "summary": "Published:\n            26.03.2026 14:14:07\n        \n        \n            Publisher:\n            European Network of Transmission System Operators for Electricity\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n           ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 14:14 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, DK1 → NL",
+      "summary": "Published:\n            26.03.2026 14:14:07\n        \n        \n            Publisher:\n            European Network of Transmission System Operators for Electricity\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n           ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 14:14 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Saurdal - G4",
+      "summary": "Published:\n            26.03.2026 14:04:37\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                  ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 14:04 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, NL → NO2",
+      "summary": "Published:\n            26.03.2026 13:44:56\n        \n        \n            Publisher:\n            European Network of Transmission System Operators for Electricity\n        \n        \n            Status:\n            Dismissed\n        \n                    \n                Type of Unavailability:\n        ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 13:44 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, NO2 → NL",
+      "summary": "Published:\n            26.03.2026 13:44:50\n        \n        \n            Publisher:\n            European Network of Transmission System Operators for Electricity\n        \n        \n            Status:\n            Dismissed\n        \n                    \n                Type of Unavailability:\n        ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 13:44 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, NL → NO2",
+      "summary": "Published:\n            26.03.2026 13:44:10\n        \n        \n            Publisher:\n            European Network of Transmission System Operators for Electricity\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n           ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 13:44 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Whitegate Power Station - Whitegate Power Station",
+      "summary": "Published:\n            26.03.2026 13:34:35\n        \n        \n            Publisher:\n            Bord Gais Energy Ltd\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                 ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 13:34 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 1",
+      "summary": "Published:\n            26.03.2026 13:30:04\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n   ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 13:30 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 1",
+      "summary": "Published:\n            26.03.2026 13:30:03\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Replaced by one or more separate UMMs describing the ne...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 13:30 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 3",
+      "summary": "Published:\n            26.03.2026 13:24:59\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 13:24 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Whitegate Power Station - Whitegate Power Station",
+      "summary": "Published:\n            26.03.2026 13:22:47\n        \n        \n            Publisher:\n            Bord Gais Energy Ltd\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                 ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 13:22 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 3",
+      "summary": "Published:\n            26.03.2026 13:21:10\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Cancellation of unavailability.\n            \n          ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 13:21 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 1",
+      "summary": "Published:\n            26.03.2026 13:20:40\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Cancellation of unavailability.\n            \n          ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 13:20 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Consumption, SE3, Holmen Hallsta / Paper Mill",
+      "summary": "Published:\n            26.03.2026 13:01:56\n        \n        \n            Publisher:\n            Vattenfall AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 13:01 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Saurdal - G4",
+      "summary": "Published:\n            26.03.2026 12:50:25\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                  ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 12:50 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Saurdal - G4",
+      "summary": "Published:\n            26.03.2026 12:18:25\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                  ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 12:18 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, BE, FLEMALLE TH1",
+      "summary": "Published:\n            26.03.2026 12:12:07\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n   ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 12:12 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, EE, Estonian - G5",
+      "summary": "Published:\n            26.03.2026 12:07:40\n        \n        \n            Publisher:\n            Eesti Energia AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n  ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 12:07 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Southwall BESS (IS2) - Southwall BESS (IS2)",
+      "summary": "Published:\n            26.03.2026 11:53:37\n        \n        \n            Publisher:\n            ESB Trading\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 11:53 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Whitegate Power Station - Whitegate Power Station",
+      "summary": "Published:\n            26.03.2026 11:47:33\n        \n        \n            Publisher:\n            Bord Gais Energy Ltd\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                 ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 11:47 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Dublin Waste to Energy",
+      "summary": "Published:\n            26.03.2026 11:16:10\n        \n        \n            Publisher:\n            Dublin Waste to Energy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n               ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 11:16 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Whitegate Power Station - Whitegate Power Station",
+      "summary": "Published:\n            26.03.2026 11:14:16\n        \n        \n            Publisher:\n            Bord Gais Energy Ltd\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                 ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 11:14 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO1, Åbjøra",
+      "summary": "Published:\n            26.03.2026 10:46:55\n        \n        \n            Publisher:\n            Skagerak Kraft AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 10:46 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO3, Tafjord 5",
+      "summary": "Published:\n            26.03.2026 10:42:26\n        \n        \n            Publisher:\n            Tafjord Kraftproduksjon AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n           ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 10:42 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Saurdal - G4",
+      "summary": "Published:\n            26.03.2026 10:36:57\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                  ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 10:36 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Consumption, FI, SaC",
+      "summary": "Published:\n            26.03.2026 10:35:30\n        \n        \n            Publisher:\n            Helen Oy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n        ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 10:35 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Consumption, FI, SaC",
+      "summary": "Published:\n            26.03.2026 10:17:19\n        \n        \n            Publisher:\n            Helen Oy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n        ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 10:17 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Whitegate Power Station - Whitegate Power Station",
+      "summary": "Published:\n            26.03.2026 10:16:51\n        \n        \n            Publisher:\n            Bord Gais Energy Ltd\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                 ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 10:16 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            26.03.2026 09:51:46\n        \n        \n            Publisher:\n            Fortum Sverige AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                01.04.2026 08:00\n            \n                    \n   ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 09:51 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            26.03.2026 09:51:37\n        \n        \n            Publisher:\n            Fortum Sverige AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                26.03.2026 08:00\n            \n                    \n   ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 09:51 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Whitegate Power Station - Whitegate Power Station",
+      "summary": "Published:\n            26.03.2026 09:48:36\n        \n        \n            Publisher:\n            Bord Gais Energy Ltd\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                 ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 09:48 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, PL → LT, LT → PL",
+      "summary": "Published:\n            26.03.2026 09:33:48\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n        ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 09:33 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, PL → LT, LT → PL",
+      "summary": "Published:\n            26.03.2026 09:32:24\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n        ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 09:32 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, LT → LV, LV → LT",
+      "summary": "Published:\n            26.03.2026 09:31:47\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n        ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 09:31 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO1, Åbjøra",
+      "summary": "Published:\n            26.03.2026 09:15:01\n        \n        \n            Publisher:\n            Skagerak Kraft AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 09:15 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Whitegate Power Station - Whitegate Power Station",
+      "summary": "Published:\n            26.03.2026 09:12:54\n        \n        \n            Publisher:\n            Bord Gais Energy Ltd\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                 ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 09:12 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Saurdal - G2",
+      "summary": "Published:\n            26.03.2026 09:07:13\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                  ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 09:07 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 3",
+      "summary": "Published:\n            26.03.2026 08:58:21\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 08:58 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 3",
+      "summary": "Published:\n            26.03.2026 08:58:20\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Replaced by one or more separate UMMs describing the ne...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 08:58 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 3",
+      "summary": "Published:\n            26.03.2026 08:57:57\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 08:57 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, FI, Keljonlahti",
+      "summary": "Published:\n            26.03.2026 08:46:22\n        \n        \n            Publisher:\n            Gasum Oy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n          ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 08:46 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            26.03.2026 08:11:15\n        \n        \n            Publisher:\n            Fortum Power and Heat Oy\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                10.11.2025 08:00\n            \n                 ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 08:11 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, DK2, Roedsand 2",
+      "summary": "Published:\n            26.03.2026 08:10:35\n        \n        \n            Publisher:\n            Energinet\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n         ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-26 08:10 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 19:50:06\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                25.03.2026 19:30\n            \n                    \n       ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 19:50 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 19:07:55\n        \n        \n            Publisher:\n            &#216;rsted Bioenergy &amp; Thermal Power A/S\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                25.03.2026 18:46\n         ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 19:07 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, DK1, Studstrupværket - SSV3",
+      "summary": "Published:\n            25.03.2026 19:07:10\n        \n        \n            Publisher:\n            &#216;rsted Bioenergy &amp; Thermal Power A/S\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 19:07 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Southwall BESS (IS2) - Southwall BESS (IS2)",
+      "summary": "Published:\n            25.03.2026 19:05:51\n        \n        \n            Publisher:\n            ESB Trading\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 19:05 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Suldal 2 - Suldal 2 G4",
+      "summary": "Published:\n            25.03.2026 18:04:37\n        \n        \n            Publisher:\n            Lyse Produksjon AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                   ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 18:04 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Novle - Novle G1",
+      "summary": "Published:\n            25.03.2026 17:45:52\n        \n        \n            Publisher:\n            Lyse Produksjon AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                   ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 17:45 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, NO2, Brokke",
+      "summary": "Published:\n            25.03.2026 17:41:17\n        \n        \n            Publisher:\n            &#197; ENERGI VANNKRAFT AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n             ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 17:41 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 17:13:31\n        \n        \n            Publisher:\n            Ingrid Capacity AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                24.02.2026 00:00\n            \n                    \n  ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 17:13 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Moneypoint - GU_400271 (MP2)",
+      "summary": "Published:\n            25.03.2026 16:28:36\n        \n        \n            Publisher:\n            ESB Trading\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 16:28 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, VILVOORDE 1",
+      "summary": "Published:\n            25.03.2026 16:12:03\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 16:12 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, FI, Lestijärven tuulipuisto",
+      "summary": "Published:\n            25.03.2026 15:11:10\n        \n        \n            Publisher:\n            EPV Tase Oy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 15:11 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 3",
+      "summary": "Published:\n            25.03.2026 14:55:49\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 14:55 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, FI, Toppila - B2",
+      "summary": "Published:\n            25.03.2026 14:49:54\n        \n        \n            Publisher:\n            PD Power Oy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n       ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 14:49 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, NO2 → DK1, DK1 → NO2",
+      "summary": "Published:\n            25.03.2026 14:44:57\n        \n        \n            Publisher:\n            Statnett SF\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n       ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 14:44 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, Vilvoorde BESS 2",
+      "summary": "Published:\n            25.03.2026 14:34:41\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 14:34 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, Vilvoorde BESS 2",
+      "summary": "Published:\n            25.03.2026 14:33:55\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 14:33 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, Vilvoorde BESS 2",
+      "summary": "Published:\n            25.03.2026 14:33:25\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 14:33 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, Vilvoorde BESS 2",
+      "summary": "Published:\n            25.03.2026 14:32:35\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 14:32 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, Vilvoorde BESS 2",
+      "summary": "Published:\n            25.03.2026 14:30:43\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Cancellation of unavailability. This UMM contains multi...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 14:30 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, Vilvoorde BESS 2",
+      "summary": "Published:\n            25.03.2026 14:30:42\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Cancellation of unavailability. This UMM contains multi...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 14:30 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, Vilvoorde BESS 2",
+      "summary": "Published:\n            25.03.2026 14:30:41\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Cancellation of unavailability. This UMM contains multi...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 14:30 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, Vilvoorde BESS 2",
+      "summary": "Published:\n            25.03.2026 14:30:33\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Cancellation of unavailability. This UMM contains multi...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 14:30 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, SE1, Porjus - G12",
+      "summary": "Published:\n            25.03.2026 14:00:53\n        \n        \n            Publisher:\n            Vattenfall AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n   ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 14:00 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 13:14:41\n        \n        \n            Publisher:\n            Statnett SF\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                25.03.2026 07:00\n            \n                    \n         ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 13:14 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 13:07:02\n        \n        \n            Publisher:\n            Hafslund  Kraft  Innlandet AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                20.02.2026 12:00\n            \n            ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 13:07 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 12:47:26\n        \n        \n            Publisher:\n            &#216;rsted Bioenergy &amp; Thermal Power A/S\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                25.03.2026 07:00\n         ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 12:47 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Transmission, NO5 → NO3, NO5 → NO1, NO3 → NO5",
+      "summary": "Published:\n            25.03.2026 12:26:30\n        \n        \n            Publisher:\n            Statnett SF\n        \n        \n            Status:\n            Dismissed\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n  ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 12:26 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Consumption, NO3, Norske Skog Skogn / Unit",
+      "summary": "Published:\n            25.03.2026 11:47:08\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                  ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 11:47 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Transmission, PL → SE4",
+      "summary": "Published:\n            25.03.2026 11:31:49\n        \n        \n            Publisher:\n            European Network of Transmission System Operators for Electricity\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n           ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 11:31 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Transmission, SE4 → PL",
+      "summary": "Published:\n            25.03.2026 11:30:01\n        \n        \n            Publisher:\n            European Network of Transmission System Operators for Electricity\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n           ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 11:30 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Saurdal - G4",
+      "summary": "Published:\n            25.03.2026 11:13:43\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                  ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 11:13 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Dublin Waste to Energy",
+      "summary": "Published:\n            25.03.2026 11:06:05\n        \n        \n            Publisher:\n            Dublin Waste to Energy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n               ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 11:06 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, IE, Dublin Waste to Energy",
+      "summary": "Published:\n            25.03.2026 10:47:04\n        \n        \n            Publisher:\n            Dublin Waste to Energy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n               ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 10:47 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO5, Matre H",
+      "summary": "Published:\n            25.03.2026 10:38:26\n        \n        \n            Publisher:\n            Eviny Fornybar AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 10:38 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, EE, Estonian - G5",
+      "summary": "Published:\n            25.03.2026 10:26:23\n        \n        \n            Publisher:\n            Eesti Energia AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n  ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 10:26 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, SE4, Öresundsverket, Malmö",
+      "summary": "Published:\n            25.03.2026 10:21:26\n        \n        \n            Publisher:\n            Sydkraft Thermal Power AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n            ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 10:21 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, NO5, Aurland 3 - G1",
+      "summary": "Published:\n            25.03.2026 10:01:14\n        \n        \n            Publisher:\n            Hafslund Kraft AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 10:01 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Consumption, NO3, Norske Skog Skogn / Unit",
+      "summary": "Published:\n            25.03.2026 09:58:58\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                  ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 09:58 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, FI, Toppila - B2",
+      "summary": "Published:\n            25.03.2026 09:54:04\n        \n        \n            Publisher:\n            PD Power Oy\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n       ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 09:54 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 09:44:23\n        \n        \n            Publisher:\n            &#216;rsted Bioenergy &amp; Thermal Power A/S\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                25.03.2026 07:00\n         ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 09:44 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 09:27:55\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                24.03.2026 00:00\n            \n                    \n       ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 09:27 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 09:27:06\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                24.03.2026 00:00\n            \n                    \n       ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 09:27 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 456 - COO 5",
+      "summary": "Published:\n            25.03.2026 09:16:45\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 09:16 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 3",
+      "summary": "Published:\n            25.03.2026 09:16:28\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 09:16 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 123 - COO 3",
+      "summary": "Published:\n            25.03.2026 09:16:27\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 09:16 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 456 - COO 4",
+      "summary": "Published:\n            25.03.2026 09:15:27\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 09:15 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, BE, COO 456 - COO 6",
+      "summary": "Published:\n            25.03.2026 09:15:12\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 09:15 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, LT → LV, LV → LT",
+      "summary": "Published:\n            25.03.2026 09:14:48\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n        ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 09:14 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Saurdal - G4",
+      "summary": "Published:\n            25.03.2026 09:14:02\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                  ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 09:14 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, PL → LT, LT → PL",
+      "summary": "Published:\n            25.03.2026 09:13:17\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n        ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 09:13 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, PL → LT, LT → PL",
+      "summary": "Published:\n            25.03.2026 09:13:13\n        \n        \n            Publisher:\n            LITGRID AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n        ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 09:13 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, SE2, Blackfjället",
+      "summary": "Published:\n            25.03.2026 08:37:32\n        \n        \n            Publisher:\n            RES Renewable Norden AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n              ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 08:37 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO4, Skjomen - G1",
+      "summary": "Published:\n            25.03.2026 08:35:27\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                  ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 08:35 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Transmission, NO5 → NO1, NO5 → NO3, NO3 → NO5",
+      "summary": "Published:\n            25.03.2026 08:14:08\n        \n        \n            Publisher:\n            Statnett SF\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 08:14 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Transmission, EE → LV, LV → EE",
+      "summary": "Published:\n            25.03.2026 07:30:52\n        \n        \n            Publisher:\n            Elering AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n        ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 07:30 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, SE1, Letsi - G3",
+      "summary": "Published:\n            25.03.2026 07:20:35\n        \n        \n            Publisher:\n            Vattenfall AB\n        \n        \n            Status:\n            Dismissed\n        \n            \n                Cancellation reason:\n                Job cancelled\n            \n                    \n       ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 07:20 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, NO2, Holen - G2",
+      "summary": "Published:\n            25.03.2026 06:08:02\n        \n        \n            Publisher:\n            &#197; ENERGI VANNKRAFT AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n             ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 06:08 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, NO2, Holen - G1",
+      "summary": "Published:\n            25.03.2026 06:06:02\n        \n        \n            Publisher:\n            &#197; ENERGI VANNKRAFT AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n             ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 06:06 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, SE2, Kilforsen",
+      "summary": "Published:\n            25.03.2026 06:02:14\n        \n        \n            Publisher:\n            Vattenfall AB\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                    \n   ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 06:02 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, DK2, Roedsand 2",
+      "summary": "Published:\n            25.03.2026 05:54:50\n        \n        \n            Publisher:\n            Energinet\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n         ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 05:54 CET"
+    },
+    {
+      "title": "Other market information",
+      "summary": "Published:\n            25.03.2026 04:50:53\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Event start:\n                25.03.2026 06:00\n            \n                    \n       ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 04:50 CET"
+    },
+    {
+      "title": "Planned, Unavailability of electricity facilities: Production, NL, EEMS 4",
+      "summary": "Published:\n            25.03.2026 01:21:30\n        \n        \n            Publisher:\n            Electrabel SA\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Planned\n            \n                    \n     ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 01:21 CET"
+    },
+    {
+      "title": "Unplanned, Unavailability of electricity facilities: Production, NO2, Saurdal - G4",
+      "summary": "Published:\n            25.03.2026 01:00:07\n        \n        \n            Publisher:\n            Statkraft Energi AS\n        \n        \n            Status:\n            Active\n        \n                    \n                Type of Unavailability:\n                Unplanned\n            \n                  ...",
+      "source": "NordPool_UMM",
+      "published_at_cet": "2026-03-25 01:00 CET"
+    }
+  ]
+}
